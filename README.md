@@ -22,6 +22,7 @@ Inspired by Norse mythology, the designs in **Project Aesir** focus on quality, 
 - **Plugins**: There are a few KiCad plugins that you can install that will help with building these PCB's as well as one library of keyswitches:
   - [marbastlib Keyswitch Symbol Library](https://github.com/ebastler/marbastlib)
   - [kicad-kbplacer](https://github.com/adamws/kicad-kbplacer)
+  - [PCBWay Order Plugin](https://github.com/pcbway/PCBWay-Plug-in-for-Kicad)
 
 ### Steps
 1. Clone this repository to your local machine.
