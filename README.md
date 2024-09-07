@@ -16,13 +16,15 @@ Inspired by Norse mythology, the designs in **Project Aesir** focus on quality, 
 
 ### Requirements
 - **KiCad**: Download and install the latest version of [KiCad](https://www.kicad.org/download/).
-- **STM32F072CBT6 Microcontroller**: Ensure you have the appropriate microcontroller for these designs.
-- **PCB Manufacturer**: You will need a PCB manufacturer to fabricate the boards. Popular options include JLCPCB, OSH Park, or PCBWay.
+- **PCB Manufacturer**: These projects were developed in collaboration with PCBWay. Each sub-project will have a link to the project on PCBWay's project sharing platform so you can order them with the click of a button.
+- **Plugins**: There are a few KiCad plugins that you can install that will help with building these PCB's as well as one library of keyswitches:
+  - [marbastlib Keyswitch Symbol Library](https://github.com/ebastler/marbastlib)
+  - [kicad-kbplacer](https://github.com/adamws/kicad-kbplacer)
 
 ### Steps
 1. Clone this repository to your local machine.
     ```bash
-    git clone https://github.com/yourusername/project-aesir.git
+    git clone https://github.com/modern-hobbyist/aesir
     ```
 2. Open the desired KiCad project in your KiCad software.
 3. Customize the layout, add your own components, and make any modifications to fit your needs.
