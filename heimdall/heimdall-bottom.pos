@@ -1,0 +1,39 @@
+### Footprint positions - created on 2024-08-17T20:44:53-0500 ###
+### Printed by KiCad version 8.0.4
+## Unit = mm, Angle = deg.
+## Side : bottom
+# Ref     Val                            Package                                   PosX       PosY       Rot  Side
+BOOT1     SW_SPST                        SW_SPST_TL3342                        115.0925   -72.4250  -90.0000  bottom
+C1        100nF                          C_0402_1005Metric                     110.5791   -63.1616  180.0000  bottom
+C2        10uF                           C_0603_1608Metric                     117.5925   -47.9250    0.0000  bottom
+C3        100nF                          C_0402_1005Metric                     116.3425   -50.9250    0.0000  bottom
+C4        100nF                          C_0402_1005Metric                     107.5925   -51.1750   90.0000  bottom
+C5        100nF                          C_0402_1005Metric                     116.5925   -59.6750  -90.0000  bottom
+C6        100nF                          C_0402_1005Metric                     116.0925   -61.1750    0.0000  bottom
+C7        100nF                          C_0402_1005Metric                     110.5791   -61.9116    0.0000  bottom
+C8        100nF                          C_0402_1005Metric                     115.0925   -40.9250   90.0000  bottom
+C9        1uF                            C_0402_1005Metric                     113.5925   -44.1750   90.0000  bottom
+C10       1uF                            C_0402_1005Metric                     114.8425   -47.6750  180.0000  bottom
+D1        D                              D_SOD-123                              41.3425   -39.1000   90.0000  bottom
+D2        D                              D_SOD-123                              60.3925   -39.1000   90.0000  bottom
+D3        D                              D_SOD-123                              79.4425   -39.1000   90.0000  bottom
+D4        D                              D_SOD-123                              98.4925   -39.1000   90.0000  bottom
+D5        D                              D_SOD-123                              41.3425   -58.1500   90.0000  bottom
+D6        D                              D_SOD-123                              60.3925   -58.1500   90.0000  bottom
+D7        D                              D_SOD-123                              79.4425   -58.1500   90.0000  bottom
+D8        D                              D_SOD-123                              98.4925   -58.1500   90.0000  bottom
+D9        D                              D_SOD-123                              41.3425   -77.2000   90.0000  bottom
+D10       D                              D_SOD-123                              60.3925   -77.2000   90.0000  bottom
+D11       D                              D_SOD-123                              79.4425   -77.2000   90.0000  bottom
+D12       D                              D_SOD-123                              98.4925   -77.2000   90.0000  bottom
+F1        500mA                          Fuse_1206_3216Metric                  112.0925   -41.9250    0.0000  bottom
+J1        USB_C_Receptacle_USB2.0        USB_C_Receptacle_HRO_TYPE-C-31-M-12   112.0925   -29.6750    0.0000  bottom
+R1        5.1k                           R_0402_1005Metric                     115.0925   -38.9250  180.0000  bottom
+R2        5.1k                           R_0402_1005Metric                     115.0925   -36.4250    0.0000  bottom
+R3        5.1k                           R_0402_1005Metric                     113.3425   -65.4250  180.0000  bottom
+R4        5.1k                           R_0402_1005Metric                     110.8425   -65.4250  180.0000  bottom
+RST1      SW_SPST                        SW_SPST_TL3342                        109.0925   -72.4250   90.0000  bottom
+U1        STM32F072CBT6                  LQFP-48_7x7mm_P0.5mm                  112.0925   -55.4250   90.0000  bottom
+U2        PRTR5V0U2X                     SOT-143                               112.0925   -37.6750    0.0000  bottom
+U3        XC6206PxxxMR-Regulator_Linear  SOT-23                                116.3425   -45.1750  180.0000  bottom
+## End
