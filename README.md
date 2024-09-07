@@ -1,5 +1,7 @@
 # Project Aesir: Custom Keyboard PCB Designs
 
+**In Progress**
+
 **Project Aesir** is a collection of custom keyboard PCB designs created using KiCad, aimed at keyboard enthusiasts and DIY makers. Each project in this collection is designed to offer flexibility, from a template for a standard keyboard PCB using the STM32F072CBT6 microcontroller to a split ergonomic keyboard design, also powered by the STM32F072CBT6.
 
 Inspired by Norse mythology, the designs in **Project Aesir** focus on quality, creativity, and ease of customization. Whether you're building your first mechanical keyboard or iterating on your own design, these resources will help guide you through the process.
