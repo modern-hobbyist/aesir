@@ -60,7 +60,12 @@
       ],
       "drc_exclusions": [
         "silk_over_copper|183214174|60210000|2ad286e7-bd66-4389-8007-67bd55ff3b88|00000000-0000-0000-0000-000000000000",
-        "silk_over_copper|183990001|68850000|0b6c86e3-d708-47ef-8734-03165bca3fd1|00000000-0000-0000-0000-000000000000"
+        "silk_over_copper|183990001|68850000|0b6c86e3-d708-47ef-8734-03165bca3fd1|00000000-0000-0000-0000-000000000000",
+        "silk_overlap|183990001|60240000|0b6c86e3-d708-47ef-8734-03165bca3fd1|2621edd2-c38a-43ab-9fe5-3bad8a8065f4",
+        "silk_overlap|183990001|60240000|2ad286e7-bd66-4389-8007-67bd55ff3b88|2621edd2-c38a-43ab-9fe5-3bad8a8065f4",
+        "silk_overlap|183990001|61140000|0b6c86e3-d708-47ef-8734-03165bca3fd1|065e995a-29fe-48af-9152-9892a4d9d4e1",
+        "silk_overlap|183990001|66920000|0b6c86e3-d708-47ef-8734-03165bca3fd1|12ee84b9-148f-4fa5-9c4d-ffb0e5953b11",
+        "silk_overlap|183990001|68350000|0b6c86e3-d708-47ef-8734-03165bca3fd1|78ad8f31-c6e3-45a5-b171-c977c9883520"
       ],
       "meta": {
         "version": 2
@@ -482,10 +487,10 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "/Users/charliesteenhagen/Desktop/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "hermod.step",
       "svg": "",
       "vrml": ""
     },
