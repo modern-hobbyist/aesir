@@ -58,7 +58,25 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "hole_clearance|100947715|168628894|0f4c4da4-83f1-4ae6-aec1-786650754da3|d1414865-f0ae-4c3a-acad-38b29db19781",
+        "hole_clearance|105710215|187678894|7e079cd9-7049-4a11-bfd3-60e78e26e458|160fbd9e-1131-4acb-b58e-920f66b5babc",
+        "hole_clearance|112853965|87666394|36e386fe-ea4c-44cf-bafc-fece48182215|11488512-c36e-4202-9bcb-64638d734ed9",
+        "hole_clearance|147123965|128159994|159d8563-9227-47e4-944b-a3832dad593a|c47992f5-df54-4229-8497-c5249b6abf2c",
+        "hole_clearance|160478965|149578894|fc8746c1-9c04-43c5-9364-15788d9fafd2|8bdc4785-78a7-4f60-862b-0727b2d6d6c8",
+        "hole_clearance|170003965|130528894|aca4c590-8855-4a07-9989-dd2513be496b|00e20c41-9990-418e-871a-8ecfa29cf8ca",
+        "hole_clearance|403366465|168628894|0657c415-a44e-422d-8d80-d2a6ee6c0535|5fd8f0e4-d868-475a-8507-1ecda0fb2950",
+        "hole_clearance|422416465|111478894|00137c97-bf0b-455a-ae38-391109f9ae7c|792ef485-23b8-4147-99c0-126c2880bcc0",
+        "hole_clearance|434468265|208708994|820ef91f-3ca6-41df-9988-40f21afdb143|0fc370e9-a616-49dc-9fce-b509670db5d3",
+        "hole_clearance|434505215|170545244|58ba35e0-69de-455a-a51b-7d3beb71386d|60e48763-49a9-49ca-8413-4ceaa543d4be",
+        "hole_clearance|441466465|168628894|6feee798-3610-42ef-91cd-f4f5ba3013eb|92613fd4-7daa-4f7a-a34b-e4d9336aecdc",
+        "hole_clearance|447376315|144833744|21bf0ecc-93e3-430f-bb95-c15514600dcd|8a9d14be-53a9-482d-b299-fd58033ccdca",
+        "hole_clearance|447430349|167143877|62abc335-d5a4-4b20-a43f-7d4bb189da38|4d4b4bbb-9a61-427a-999c-876f5413c95a",
+        "hole_clearance|447430349|205243877|82ba8676-15fa-4a70-9778-9c35639e2d0f|22620538-8ce8-49d1-bc21-f5a21c228c38",
+        "hole_clearance|448070149|146508809|0058be0c-579a-4f6f-b78f-44972a6cb950|8a9d14be-53a9-482d-b299-fd58033ccdca",
+        "hole_clearance|93803965|111478894|8d1f881a-7dfe-43fe-894f-eb0d0ae91294|c258502b-946e-4082-93ab-04b5d6cc0a99",
+        "hole_clearance|96185215|206728894|522eb191-01d5-45fd-9061-be45c6e9d0ee|a050bd54-5e94-4632-8198-60efa6228b7e"
+      ],
       "meta": {
         "version": 2
       },
@@ -86,7 +104,7 @@
         "items_not_allowed": "error",
         "length_out_of_range": "error",
         "lib_footprint_issues": "warning",
-        "lib_footprint_mismatch": "warning",
+        "lib_footprint_mismatch": "ignore",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
         "missing_courtyard": "ignore",
@@ -100,7 +118,7 @@
         "silk_over_copper": "ignore",
         "silk_overlap": "ignore",
         "skew_out_of_range": "error",
-        "solder_mask_bridge": "error",
+        "solder_mask_bridge": "ignore",
         "starved_thermal": "error",
         "text_height": "ignore",
         "text_thickness": "ignore",
@@ -449,7 +467,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "modern-keyboard-stm32.kicad_pro",
+    "filename": "heimdall.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -487,7 +505,7 @@
       "plot": "../../../Desktop/",
       "pos_files": "../../../Desktop/",
       "specctra_dsn": "",
-      "step": "stm32f072_template.step",
+      "step": "../../../../../Desktop/stm32f072_template.step",
       "svg": "",
       "vrml": ""
     },

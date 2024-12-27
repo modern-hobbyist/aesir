@@ -5255,12 +5255,6 @@
 		(uuid "899c0226-5f19-42ce-a135-194b5573c4bc")
 	)
 	(junction
-		(at 54.61 143.51)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9ca32b3b-72b1-4b25-9d3b-6c747206372e")
-	)
-	(junction
 		(at 231.14 144.145)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5355,12 +5349,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fa14448a-37e6-46ad-a49d-c027506a3c9e")
-	)
-	(junction
-		(at 54.61 151.13)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fa8e6848-e88b-44be-b285-d39293cdf208")
 	)
 	(junction
 		(at 158.75 46.99)
@@ -5622,7 +5610,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 143.51) (xy 54.61 143.51)
+			(xy 50.8 143.51) (xy 59.69 143.51)
 		)
 		(stroke
 			(width 0)
@@ -5962,16 +5950,6 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 151.13) (xy 58.42 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6493f751-068b-442c-8ae0-0e2b5026e319")
-	)
-	(wire
-		(pts
 			(xy 194.31 146.05) (xy 193.04 146.05)
 		)
 		(stroke
@@ -6022,7 +6000,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 146.05) (xy 52.07 146.05)
+			(xy 50.8 146.05) (xy 59.69 146.05)
 		)
 		(stroke
 			(width 0)
@@ -6059,16 +6037,6 @@
 			(type default)
 		)
 		(uuid "7a290095-81a2-4a90-82c6-259ad9f96297")
-	)
-	(wire
-		(pts
-			(xy 52.07 146.05) (xy 52.07 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7a59a491-1177-4e96-8abb-696d4d21acfe")
 	)
 	(wire
 		(pts
@@ -6272,16 +6240,6 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 151.13) (xy 54.61 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "98da3214-5362-4282-9537-7d44577beb58")
-	)
-	(wire
-		(pts
 			(xy 257.81 107.95) (xy 266.7 107.95)
 		)
 		(stroke
@@ -6442,16 +6400,6 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 143.51) (xy 59.69 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "acf2daa1-7d8c-435e-8a77-25b04e8747e3")
-	)
-	(wire
-		(pts
 			(xy 231.14 144.145) (xy 232.41 144.145)
 		)
 		(stroke
@@ -6602,16 +6550,6 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 151.13) (xy 58.42 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c87c3a2c-1549-43f1-ba51-9625b51dd242")
-	)
-	(wire
-		(pts
 			(xy 26.67 59.69) (xy 36.83 59.69)
 		)
 		(stroke
@@ -6619,16 +6557,6 @@
 			(type default)
 		)
 		(uuid "ca813ab7-d867-46ed-aa3e-4d1a28c32d26")
-	)
-	(wire
-		(pts
-			(xy 58.42 146.05) (xy 59.69 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cb908f28-e475-40a0-8cb1-aa32fcf8d3cd")
 	)
 	(wire
 		(pts
@@ -13314,73 +13242,6 @@
 			(project "modern-keyboard"
 				(path "/cb32b2da-a60d-4ed4-a57b-2c397f553171"
 					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 54.61 147.32 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b00ec2e1-104d-4909-be3c-e93a1ec47798")
-		(property "Reference" "R5"
-			(at 54.61 147.32 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0"
-			(at 56.896 147.32 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 56.388 147.32 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 54.61 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 54.61 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "84247648-5501-4449-993c-37a588128a1e")
-		)
-		(pin "2"
-			(uuid "17d6ec74-6279-47ae-a233-23be072219f7")
-		)
-		(instances
-			(project ""
-				(path "/cb32b2da-a60d-4ed4-a57b-2c397f553171"
-					(reference "R5")
 					(unit 1)
 				)
 			)
