@@ -28,7 +28,7 @@ A brief description of the Heimdall project.
 These designs are provided as-is. I am not liable for any damages or issues.
 
 ## License
-Licensed under the MIT License.
+Licensed under the MIT License. See the [LICENSE](../LICENSE) for more details.
 
 ## Contact
 For inquiries, contact via GitHub or YouTube.
