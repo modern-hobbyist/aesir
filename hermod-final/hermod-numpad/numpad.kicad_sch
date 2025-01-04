@@ -1084,6 +1084,16 @@
 	)
 	(wire
 		(pts
+			(xy 193.04 67.31) (xy 194.31 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18186c3e-3cf2-48bc-bec7-dc9a6fa3d288")
+	)
+	(wire
+		(pts
 			(xy 58.42 119.38) (xy 58.42 140.97)
 		)
 		(stroke
@@ -1620,6 +1630,138 @@
 			)
 		)
 	)
+	(global_label "row1"
+		(shape input)
+		(at 170.18 64.77 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "267b8db5-de75-4c3a-9cfd-203a3721b8d1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 177.6404 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "col10"
+		(shape input)
+		(at 193.04 64.77 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "27aa27e3-6d22-4c97-bbcc-6c824550d02f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 201.347 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "row3"
+		(shape input)
+		(at 170.18 59.69 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2eb96d17-6c5b-4377-9b93-8e7f1598ffaf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 177.6404 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "row4"
+		(shape input)
+		(at 170.18 57.15 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "36f508ee-3d90-4171-a6af-985a0351c3bb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 177.6404 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "col9"
+		(shape input)
+		(at 193.04 62.23 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3c959ecb-ff57-4088-8522-e6fbdd71fdfb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 200.1375 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "col8"
+		(shape input)
+		(at 193.04 59.69 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "47e834ab-0b35-49de-a0ed-c36a4a49272a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 200.1375 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "col9"
 		(shape input)
 		(at 193.04 85.09 0)
@@ -1664,6 +1806,28 @@
 			)
 		)
 	)
+	(global_label "row2"
+		(shape input)
+		(at 170.18 62.23 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5602b776-49ab-4e3d-8a59-e6032bfb6763")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 177.6404 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "row1"
 		(shape input)
 		(at 170.18 87.63 0)
@@ -1699,6 +1863,50 @@
 		(uuid "5c6918a9-fe60-4828-ab01-5ef57cd2be52")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 93.98 29.7325 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "row0"
+		(shape input)
+		(at 170.18 67.31 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6173e0ed-5574-4958-909b-dd272d1e30ed")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 177.6404 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "col7"
+		(shape input)
+		(at 193.04 57.15 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "645e848d-836b-4edc-a991-a43212796659")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 200.1375 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1925,6 +2133,71 @@
 				)
 				(justify right)
 				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 194.31 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0057cdd0-5541-4366-9ae1-c9b2cc8854ea")
+		(property "Reference" "#PWR03"
+			(at 194.31 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 194.31 71.374 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 194.31 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 194.31 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 194.31 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7211fb8d-a482-4f20-ad9e-ff2eabc213f4")
+		)
+		(instances
+			(project "numpad"
+				(path "/c771186a-4e8d-4283-b4dc-5e9fe43c3267"
+					(reference "#PWR03")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -2373,6 +2646,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Pogo:Pogo_2.54mm_5p")
+		(at 167.64 62.23 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "10e84f74-3a7a-4727-9f3c-f560293a5da9")
+		(property "Reference" "U3"
+			(at 165.1 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 165.1 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Pogo:Pogo_2.54mm_5p"
+			(at 167.64 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 167.64 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "91d40e31-e35e-4e57-b4c0-16f21474ce53")
+		)
+		(pin "5"
+			(uuid "02267064-9d8b-40db-a372-424bbfd203c2")
+		)
+		(pin "4"
+			(uuid "a03ce412-bbf6-4d02-97a0-18d51a1287f0")
+		)
+		(pin "2"
+			(uuid "cdcc28f9-007b-4ad2-be5e-3a401381f3f6")
+		)
+		(pin "3"
+			(uuid "bc16e9fc-4d2d-4e15-96ab-1aa685b6d283")
+		)
+		(instances
+			(project "numpad"
+				(path "/c771186a-4e8d-4283-b4dc-5e9fe43c3267"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D")
 		(at 99.06 62.23 90)
 		(unit 1)
@@ -2455,6 +2804,82 @@
 			(project "numpad"
 				(path "/c771186a-4e8d-4283-b4dc-5e9fe43c3267"
 					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Pogo:Pogo_2.54mm_5p")
+		(at 190.5 62.23 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "14823b74-cc9d-4b80-8cb4-7f4723930842")
+		(property "Reference" "U4"
+			(at 187.96 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 187.96 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Pogo:Pogo_2.54mm_5p"
+			(at 190.5 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 190.5 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7b19ddf8-cbec-43d2-b947-50def1cdbdc7")
+		)
+		(pin "5"
+			(uuid "56a962f3-1e8b-4543-9990-64d1f3989542")
+		)
+		(pin "4"
+			(uuid "06a656ff-470e-4f9a-8024-39da7630e1b7")
+		)
+		(pin "2"
+			(uuid "f38470bc-cd14-420f-b834-cca00537da12")
+		)
+		(pin "3"
+			(uuid "0ae6a4ce-6107-4348-95c6-84994c0ddf2c")
+		)
+		(instances
+			(project "numpad"
+				(path "/c771186a-4e8d-4283-b4dc-5e9fe43c3267"
+					(reference "U4")
 					(unit 1)
 				)
 			)
