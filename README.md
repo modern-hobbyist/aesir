@@ -4,15 +4,13 @@
 
 **Project Aesir** is a collection of custom keyboard PCB designs created using KiCad, aimed at keyboard enthusiasts and DIY makers. Each project in this collection is designed to offer flexibility, from a template for a standard keyboard PCB using the STM32F072CBT6 microcontroller to a split ergonomic keyboard design, also powered by the STM32F072CBT6.
 
-Inspired by Norse mythology, the designs in **Project Aesir** focus on quality, creativity, and ease of customization. Whether you're building your first mechanical keyboard or iterating on your own design, these resources will help guide you through the process.
-
-## Features
-- **STM32F072CBT6 Keyboard Template**: A ready-to-use template for creating standard keyboard PCBs.
+I initially started this collection as a personal respository of templates to get my new projects on the ground running faster, but it has gradually grown to include several board designs I've completed. Make sure to check back in periodically as I add new boards to my collection!
 
 ## Included Projects
 1. **Heimdall**: A full-sized keyboard PCB designed for customization and personal use.
 2. **STM32F072CBT6 Standard Template**: A blank template for creating your own keyboard designs with the STM32F072CBT6 microcontroller.
-3. **Hermod**: A split ergonomic keyboard design for those seeking an ergonomic, portable build.
+3. **STM32F072CBT6 Split Template**: A blank template for creating your own split keyboard designs with the STM32F072CBT6 microcontroller.
+4. **Hermod**: A split ergonomic keyboard design for those seeking an ergonomic, portable build. Featuring a magnetically detachable AND reversible numpad!
 
 ## Getting Started
 

@@ -20,21 +20,25 @@ This repository provides a KiCad template for creating custom split keyboards. T
 
 1. **Clone or Download the Repository**  
    Download the files to your local machine and open the project in KiCad.  
+2. **Rename the Project Files**
+   - I recommend renaming the cloned folder to `<project-name>-left` and `<project-name>-right` or similar
+   - Rename each of the project files inside the folder to your project. e.g. `hermod.kicad_pro`
+   - Repeat for the other side (I personally keep a separate Left/Right project so I can have separate PCB files)
 
-2. **Customize the Layout**  
+3. **Customize the Layout**  
    - Open the PCB layout and schematic in KiCad.  
    - Replace or rearrange the switch footprints to match your desired layout.  
    - Adjust RGB LED placement as needed.  
 
-3. **Modify the Schematic**  
+4. **Modify the Schematic**  
    - Ensure that the column and row connections align with your new layout.  
    - Update microcontroller pin assignments if necessary.  
 
-4. **Route the PCB**  
+5. **Route the PCB**  
    - Use the existing traces as a guide for your routing.  
    - Connect switches, LEDs, and other components.  
 
-5. **Export Your Gerbers**  
+6. **Export Your Gerbers**  
    - Once your design is complete, generate Gerber files and send them to your preferred PCB manufacturer.  
 
 ### Option 2: Use the KiCad Template System  
@@ -45,6 +49,7 @@ This repository provides a KiCad template for creating custom split keyboards. T
 2. **Create a New Project from Template**  
    - Open KiCad and click **File > New Project > New Project from Template**.  
    - Locate the "Split Keyboard PCB Template" and create a new project based on it.  
+   - Use the same naming scheme mentioned above. I like to keep them separate (left/right projects)
 
 3. **Proceed with Customization**  
    Follow steps 2–5 from the first option to customize and route your design.  
