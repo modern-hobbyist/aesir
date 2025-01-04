@@ -59,7 +59,7 @@
         }
       ],
       "drc_exclusions": [
-        "silk_over_copper|213410000|59570000|0081f589-3eca-4856-b767-ba41b66384e4|00000000-0000-0000-0000-000000000000"
+        "text_thickness|69970000|38170000|786b8469-3b80-4a8f-a9ac-0916f4be5a40|00000000-0000-0000-0000-000000000000"
       ],
       "meta": {
         "version": 2
@@ -99,7 +99,7 @@
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
         "silk_edge_clearance": "warning",
-        "silk_over_copper": "warning",
+        "silk_over_copper": "ignore",
         "silk_overlap": "ignore",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "ignore",
