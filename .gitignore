@@ -77,7 +77,6 @@ fp-info-cache
 
 # Exported BOM files
 *.xml
-*.csv
 *.tsv
 
 # Misc
