@@ -1,0 +1,4 @@
+"Id";"Designator";"Footprint";"Quantity";"Designation";"Supplier and ref";
+1;"U1,U2";"Pogo_2.54mm_5p";2;"~";;;
+2;"D3,D2,D20,D5,D10,D13,D6,D9,D14,D16,D7,D18,D11,D4,D17,D1,D8,D15,D12,D19";"D_SOD-123";20;"D";;;
+3;"CH20,CH2,CH18,CH3,CH5,CH12,CH9,CH10,CH14,CH11,CH19,CH17,CH6,CH8,CH1,CH16,CH7,CH13,CH15,CH4";"SW_choc_v1_HS_CPG135001S30_1u";20;"choc_v1_SW_HS";;;
