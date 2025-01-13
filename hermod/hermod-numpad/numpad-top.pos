@@ -1,0 +1,10 @@
+### Footprint positions - created on 2025-01-13T09:17:43-0600 ###
+### Printed by KiCad version 8.0.7
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val       Package                PosX       PosY       Rot  Side
+U1        ~         Pogo_2.54mm_5p      26.4800   -81.5900  180.0000  top
+U2        ~         Pogo_2.54mm_5p      26.4800   -54.5500  180.0000  top
+U3        ~         Pogo_2.54mm_5p     101.2200   -54.6200    0.0000  top
+U4        ~         Pogo_2.54mm_5p     101.2200   -81.7200    0.0000  top
+## End

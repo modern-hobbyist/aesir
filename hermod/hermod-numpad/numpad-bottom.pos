@@ -1,0 +1,46 @@
+### Footprint positions - created on 2025-01-13T09:17:43-0600 ###
+### Printed by KiCad version 8.0.7
+## Unit = mm, Angle = deg.
+## Side : bottom
+# Ref     Val            Package                             PosX       PosY       Rot  Side
+CH1       choc_v1_SW_HS  SW_choc_v1_HS_CPG135001S30_1u    36.0000   -34.0000    0.0000  bottom
+CH2       choc_v1_SW_HS  SW_choc_v1_HS_CPG135001S30_1u    54.0000   -34.0000    0.0000  bottom
+CH3       choc_v1_SW_HS  SW_choc_v1_HS_CPG135001S30_1u    72.0000   -34.0000    0.0000  bottom
+CH4       choc_v1_SW_HS  SW_choc_v1_HS_CPG135001S30_1u    90.0000   -34.0000    0.0000  bottom
+CH5       choc_v1_SW_HS  SW_choc_v1_HS_CPG135001S30_1u    36.0000   -51.0000    0.0000  bottom
+CH6       choc_v1_SW_HS  SW_choc_v1_HS_CPG135001S30_1u    54.0000   -51.0000    0.0000  bottom
+CH7       choc_v1_SW_HS  SW_choc_v1_HS_CPG135001S30_1u    72.0000   -51.0000    0.0000  bottom
+CH8       choc_v1_SW_HS  SW_choc_v1_HS_CPG135001S30_1u    90.0000   -51.0000    0.0000  bottom
+CH9       choc_v1_SW_HS  SW_choc_v1_HS_CPG135001S30_1u    36.0000   -68.0000    0.0000  bottom
+CH10      choc_v1_SW_HS  SW_choc_v1_HS_CPG135001S30_1u    54.0000   -68.0000    0.0000  bottom
+CH11      choc_v1_SW_HS  SW_choc_v1_HS_CPG135001S30_1u    72.0000   -68.0000    0.0000  bottom
+CH12      choc_v1_SW_HS  SW_choc_v1_HS_CPG135001S30_1u    90.0000   -68.0000    0.0000  bottom
+CH13      choc_v1_SW_HS  SW_choc_v1_HS_CPG135001S30_1u    36.0000   -85.0000    0.0000  bottom
+CH14      choc_v1_SW_HS  SW_choc_v1_HS_CPG135001S30_1u    54.0000   -85.0000    0.0000  bottom
+CH15      choc_v1_SW_HS  SW_choc_v1_HS_CPG135001S30_1u    72.0000   -85.0000    0.0000  bottom
+CH16      choc_v1_SW_HS  SW_choc_v1_HS_CPG135001S30_1u    90.0000   -85.0000    0.0000  bottom
+CH17      choc_v1_SW_HS  SW_choc_v1_HS_CPG135001S30_1u    36.0000  -102.0000    0.0000  bottom
+CH18      choc_v1_SW_HS  SW_choc_v1_HS_CPG135001S30_1u    54.0000  -102.0000    0.0000  bottom
+CH19      choc_v1_SW_HS  SW_choc_v1_HS_CPG135001S30_1u    72.0000  -102.0000    0.0000  bottom
+CH20      choc_v1_SW_HS  SW_choc_v1_HS_CPG135001S30_1u    90.0000  -102.0000    0.0000  bottom
+D1        D              D_SOD-123                        33.0000   -34.7000   90.0000  bottom
+D2        D              D_SOD-123                        51.0000   -34.7000   90.0000  bottom
+D3        D              D_SOD-123                        69.0000   -34.7000   90.0000  bottom
+D4        D              D_SOD-123                        87.0000   -34.7000   90.0000  bottom
+D5        D              D_SOD-123                        33.0000   -51.7000   90.0000  bottom
+D6        D              D_SOD-123                        51.0000   -51.7000   90.0000  bottom
+D7        D              D_SOD-123                        69.0000   -51.7000   90.0000  bottom
+D8        D              D_SOD-123                        87.0000   -51.7000   90.0000  bottom
+D9        D              D_SOD-123                        33.0000   -68.7000   90.0000  bottom
+D10       D              D_SOD-123                        51.0000   -68.7000   90.0000  bottom
+D11       D              D_SOD-123                        69.0000   -68.7000   90.0000  bottom
+D12       D              D_SOD-123                        87.0000   -68.7000   90.0000  bottom
+D13       D              D_SOD-123                        33.0000   -85.7000   90.0000  bottom
+D14       D              D_SOD-123                        51.0000   -85.7000   90.0000  bottom
+D15       D              D_SOD-123                        69.0000   -85.7000   90.0000  bottom
+D16       D              D_SOD-123                        87.0000   -85.7000   90.0000  bottom
+D17       D              D_SOD-123                        33.0000  -102.7000   90.0000  bottom
+D18       D              D_SOD-123                        51.0000  -102.7000   90.0000  bottom
+D19       D              D_SOD-123                        69.0000  -102.7000   90.0000  bottom
+D20       D              D_SOD-123                        87.0000  -102.7000   90.0000  bottom
+## End
