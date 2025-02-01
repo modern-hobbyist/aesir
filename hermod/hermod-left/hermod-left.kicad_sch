@@ -5365,6 +5365,12 @@
 		(uuid "1463c84e-7462-46bf-a043-ceb4b393f4ba")
 	)
 	(junction
+		(at 163.83 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2128b41a-551f-4da5-b3da-29aa497023a6")
+	)
+	(junction
 		(at 61.595 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6366,6 +6372,16 @@
 	)
 	(wire
 		(pts
+			(xy 163.83 46.99) (xy 167.64 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91fbcfa2-a800-4399-a6dd-49ab5d7a6c53")
+	)
+	(wire
+		(pts
 			(xy 231.14 144.145) (xy 231.14 147.955)
 		)
 		(stroke
@@ -6406,7 +6422,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 46.99) (xy 160.02 46.99)
+			(xy 158.75 46.99) (xy 163.83 46.99)
 		)
 		(stroke
 			(width 0)
@@ -9318,7 +9334,7 @@
 	)
 	(global_label "SplitSerial"
 		(shape input)
-		(at 160.02 46.99 0)
+		(at 167.64 46.99 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9328,7 +9344,7 @@
 		)
 		(uuid "e5d628cf-70ce-4460-9369-ab1e3f986e6e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 172.8627 46.99 0)
+			(at 180.4827 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10688,6 +10704,71 @@
 			(project "modern-keyboard"
 				(path "/cb32b2da-a60d-4ed4-a57b-2c397f553171"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 163.83 39.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2a0b20a9-0425-4c5b-ac3e-369538b0a65c")
+		(property "Reference" "#PWR082"
+			(at 163.83 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 163.83 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 163.83 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.83 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 163.83 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "db064665-6286-4be3-a13c-ad8623c9bca8")
+		)
+		(instances
+			(project "hermod-left"
+				(path "/cb32b2da-a60d-4ed4-a57b-2c397f553171"
+					(reference "#PWR082")
 					(unit 1)
 				)
 			)
@@ -12098,6 +12179,76 @@
 			(project "modern-keyboard"
 				(path "/cb32b2da-a60d-4ed4-a57b-2c397f553171"
 					(reference "C44")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 163.83 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6dae5433-bc4c-4547-bb19-7e2ad86e6b33")
+		(property "Reference" "R5"
+			(at 166.37 41.9099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5.1k"
+			(at 166.37 44.4499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 162.052 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 163.83 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 163.83 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fc234fca-0e6b-4f26-a660-5d73b9b5e3da")
+		)
+		(pin "2"
+			(uuid "6fb1eedc-404b-4446-b38a-48b715f40c50")
+		)
+		(instances
+			(project ""
+				(path "/cb32b2da-a60d-4ed4-a57b-2c397f553171"
+					(reference "R5")
 					(unit 1)
 				)
 			)
