@@ -2,6 +2,8 @@
 
 Hermod Mk. II is a redesign of my original Hermod split keyboard, which in turn was my second keyboard design ever! Some issues that were resolved in this version include:
 - Better Pin choices for PWM Channels, Mk. I had some issues with timers overlapping
+- Added a handedness pin 
+  - Allows me to avoid using flash to store handedness
 - Switched to Full Duplex split comms
   - Mk.I was missing a 5.1kΩ resistor on the split serial line and this switched fixes that.
 - Switched to `STM32G474CETx` from the `STM32F072CBT6`
