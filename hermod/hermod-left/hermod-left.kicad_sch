@@ -5395,6 +5395,12 @@
 		(uuid "3f0e4d25-1279-4052-b573-60b9de6f9d47")
 	)
 	(junction
+		(at 91.44 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4158804b-c567-48a1-b35a-266f95730017")
+	)
+	(junction
 		(at 52.07 139.7)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5477,6 +5483,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a4b63828-da45-4429-a808-71923986b4ba")
+	)
+	(junction
+		(at 100.33 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a530380d-ba7f-4283-abad-d8fbc4c5c932")
 	)
 	(junction
 		(at 248.92 85.09)
@@ -6182,6 +6194,16 @@
 	)
 	(wire
 		(pts
+			(xy 91.44 118.11) (xy 95.25 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f2ea702-267a-4de5-ab5a-415d6501cf4a")
+	)
+	(wire
+		(pts
 			(xy 50.8 146.05) (xy 59.69 146.05)
 		)
 		(stroke
@@ -6459,6 +6481,16 @@
 			(type default)
 		)
 		(uuid "9af43cbc-b67e-4dfe-aab7-52b2b91d1a94")
+	)
+	(wire
+		(pts
+			(xy 91.44 125.73) (xy 100.33 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c814b0e-b24b-4258-af5a-590008d4438d")
 	)
 	(wire
 		(pts
@@ -6842,7 +6874,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 118.11) (xy 95.25 118.11)
+			(xy 86.36 118.11) (xy 91.44 118.11)
 		)
 		(stroke
 			(width 0)
@@ -14520,6 +14552,74 @@
 			(project "modern-keyboard"
 				(path "/cb32b2da-a60d-4ed4-a57b-2c397f553171"
 					(reference "#PWR073")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 91.44 121.92 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e8ef0510-15ca-4365-9169-968a1f65be8e")
+		(property "Reference" "R6"
+			(at 91.44 121.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 93.98 121.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 93.218 121.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 91.44 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 91.44 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4f078547-727f-4f45-9bf8-b8cb4ea85699")
+		)
+		(pin "2"
+			(uuid "393a5765-624c-41f6-84b1-1a56dc20f6db")
+		)
+		(instances
+			(project "hermod-left"
+				(path "/cb32b2da-a60d-4ed4-a57b-2c397f553171"
+					(reference "R6")
 					(unit 1)
 				)
 			)
