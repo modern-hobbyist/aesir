@@ -1,6 +1,12 @@
-# Hermod Split Keyboard
+# Hermod Mk. II
 
-Hermod is a feature-rich, fully customizable split mechanical keyboard designed for enthusiasts who want the ultimate typing experience. With per-key RGB lighting, dual 2.2" LCD displays, and QMK firmware compatibility, Hermod is both functional and visually stunning.
+Hermod Mk. II is a redesign of my original Hermod split keyboard, which in turn was my second keyboard design ever! Some issues that were resolved in this version include:
+- Better Pin choices for PWM Channels, Mk. I had some issues with timers overlapping
+- Switched to Full Duplex split comms
+  - Mk.I was missing a 5.1kΩ resistor on the split serial line and this switched fixes that.
+- Switched to `STM32G474CETx` from the `STM32F072CBT6`
+  - More Ram, more flash, more fun. Didn't have enough ram for fun graphics on the LCD
+- Added PWM Backlight control for the LCD Display 
 
 ## Features
 
@@ -14,15 +20,11 @@ Hermod is a feature-rich, fully customizable split mechanical keyboard designed 
 
 ## Specifications
 
-- **Microcontroller**: STM32
-- **Key Layout**: Split 60% layout with additional keys for layers and macros.
+- **Microcontroller**: STM32G474CETx
+- **Key Layout**: Split layout with additional keys for layers and macros.
 - **Display**: 2.2" LCD (320x240 resolution) per half.
 - **Lighting**: SK6812 Mini RGB LEDs.
 - **Switches**: Kailh Choc Low Profile.
-
-## Contributing
-
-Contributions are welcome! Whether you have ideas for features, bug fixes, or design improvements, feel free to open an issue or submit a pull request.
 
 ## License
 
