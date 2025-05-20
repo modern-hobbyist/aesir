@@ -14,11 +14,21 @@ Hermod is a feature-rich, fully customizable split mechanical keyboard designed 
 
 ## Specifications
 
-- **Microcontroller**: STM32
-- **Key Layout**: Split 60% layout with additional keys for layers and macros.
+- **Microcontroller**: STM32F072CBT6
+- **Key Layout**: Split layout with additional keys for layers and macros.
 - **Display**: 2.2" LCD (320x240 resolution) per half.
 - **Lighting**: SK6812 Mini RGB LEDs.
-- **Switches**: Kailh Choc Low Profile.
+- **Switches**: Kailh Choc Brown
+
+## Instructions
+
+I haven't yet written out full instructions for this keyboard, but the appropriate BOM and Pick-and-place files should be present to have PCBWay assemble it for you. From there, it's really just a matter of printing all the parts, ordering the right display, switches, keycaps and bolts, then putting it all together!
+
+The firmware is slightly tricky, as each half needs to be flashed with a left or right specific firmware, so I'll try to get instructions for that written soon.
+
+For the time being, here is a link to the latest firmware:
+https://github.com/modern-hobbyist/qmk_userspace/releases/tag/latest
+
 
 ## Contributing
 
