@@ -1,5 +1,7 @@
 # Hermod Mk. II
 
+> **Note:** This PCB is untested. I made updates to this design to address issues I had with the previous version, but I haven't ordered boards, nor have I written the matching firmware for it.
+
 Hermod Mk. II is a redesign of my original Hermod split keyboard, which in turn was my second keyboard design ever! Some issues that were resolved in this version include:
 - Better Pin choices for PWM Channels, Mk. I had some issues with timers overlapping
 - Added a handedness pin 
