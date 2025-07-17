@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 841.9 595.3">
+  <!-- Generator: Adobe Illustrator 29.6.1, SVG Export Plug-In . SVG Version: 2.1.1 Build 9)  -->
+  <defs>
+    <style>
+      .st0 {
+        stroke-width: .2px;
+      }
+
+      .st0, .st1 {
+        fill: none;
+        stroke: #000;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+
+      .st2 {
+        fill-rule: evenodd;
+      }
+
+      .st1 {
+        stroke-width: .6px;
+      }
+    </style>
+  </defs>
+  <path class="st0" d="M318.8,346.3c0,4.4-3.6,8-8,8H65.3s-.4,0-.4,0h-.4c0,0-.4-.1-.4-.1h-.4c0,0-.4-.2-.4-.2h-.4c0-.1-.4-.3-.4-.3l-.4-.2-.3-.2-.3-.2-.3-.2-.3-.2-.3-.2-.3-.3-.3-.3-.3-.3-.3-.3-.2-.3-.2-.3-.2-.3-.2-.3-.2-.3-.2-.4v-.4c-.1,0-.3-.4-.3-.4v-.4c-.1,0-.2-.4-.2-.4v-.4c0,0-.1-.4-.1-.4v-.4s0-.4,0-.4V80.5s0-.4,0-.4v-.4c0,0,.1-.4.1-.4v-.4c0,0,.2-.4.2-.4v-.4c.1,0,.3-.4.3-.4l.2-.4.2-.3.2-.3.2-.3.2-.3.2-.3.3-.3.3-.3.3-.3.3-.3.3-.2.3-.2.3-.2.3-.2.3-.2.4-.2h.4c0-.1.4-.3.4-.3h.4c0-.1.4-.2.4-.2h.4c0,0,.4-.1.4-.1h.4s.4,0,.4,0h245.1c4.4,0,8,3.6,8,8v265.4Z"/>
+  <circle cx="69.8" cy="342.2" r="7.9"/>
+  <g>
+    <circle cx="69.8" cy="85.3" r="7.9"/>
+    <path class="st2" d="M61.9,241.7v-4.8h4.8v4.8h-4.8Z"/>
+  </g>
+  <g>
+    <circle cx="64.3" cy="246.5" r="2.4"/>
+    <circle cx="64.3" cy="253.7" r="2.4"/>
+    <circle cx="64.3" cy="260.9" r="2.4"/>
+    <circle cx="64.3" cy="268.1" r="2.4"/>
+    <path class="st2" d="M61.9,164.8v-4.8h4.8v4.8h-4.8Z"/>
+    <circle cx="64.3" cy="169.6" r="2.4"/>
+    <circle cx="64.3" cy="176.8" r="2.4"/>
+    <circle cx="64.3" cy="184" r="2.4"/>
+    <circle cx="64.3" cy="191.2" r="2.4"/>
+    <circle cx="307.6" cy="84.4" r="7.9"/>
+  </g>
+  <g>
+    <circle cx="307.6" cy="341.4" r="7.9"/>
+    <path class="st2" d="M315.5,185v4.8h-4.8v-4.8h4.8Z"/>
+  </g>
+  <g>
+    <circle cx="313.1" cy="180.2" r="2.4"/>
+    <circle cx="313.1" cy="173" r="2.4"/>
+    <circle cx="313.1" cy="165.8" r="2.4"/>
+    <circle cx="313.1" cy="158.6" r="2.4"/>
+    <path class="st2" d="M315.5,261.8v4.8h-4.8v-4.8h4.8Z"/>
+    <circle cx="313.1" cy="257" r="2.4"/>
+    <circle cx="313.1" cy="249.8" r="2.4"/>
+    <circle cx="313.1" cy="242.6" r="2.4"/>
+    <circle cx="313.1" cy="235.4" r="2.4"/>
+    <circle cx="282.5" cy="310.7" r="5"/>
+  </g>
+  <circle cx="262.6" cy="307.7" r="5"/>
+  <circle cx="228.5" cy="310.7" r="5"/>
+  <circle cx="208.6" cy="307.7" r="5"/>
+  <circle cx="174.5" cy="310.7" r="5"/>
+  <circle cx="154.6" cy="307.7" r="5"/>
+  <circle cx="120.5" cy="310.7" r="5"/>
+  <circle cx="100.6" cy="307.7" r="5"/>
+  <circle cx="282.5" cy="256.7" r="5"/>
+  <circle cx="262.6" cy="253.7" r="5"/>
+  <circle cx="228.5" cy="256.7" r="5"/>
+  <circle cx="208.6" cy="253.7" r="5"/>
+  <circle cx="174.5" cy="256.7" r="5"/>
+  <circle cx="154.6" cy="253.7" r="5"/>
+  <circle cx="120.5" cy="256.7" r="5"/>
+  <circle cx="100.6" cy="253.7" r="5"/>
+  <circle cx="282.5" cy="202.7" r="5"/>
+  <circle cx="262.6" cy="199.7" r="5"/>
+  <circle cx="228.5" cy="202.7" r="5"/>
+  <circle cx="208.6" cy="199.7" r="5"/>
+  <circle cx="174.5" cy="202.7" r="5"/>
+  <circle cx="154.6" cy="199.7" r="5"/>
+  <circle cx="120.5" cy="202.7" r="5"/>
+  <circle cx="100.6" cy="199.7" r="5"/>
+  <circle cx="282.5" cy="148.7" r="5"/>
+  <circle cx="262.6" cy="145.7" r="5"/>
+  <circle cx="228.5" cy="148.7" r="5"/>
+  <circle cx="208.6" cy="145.7" r="5"/>
+  <circle cx="174.5" cy="148.7" r="5"/>
+  <circle cx="154.6" cy="145.7" r="5"/>
+  <circle cx="120.5" cy="148.7" r="5"/>
+  <circle cx="100.6" cy="145.7" r="5"/>
+  <circle cx="282.5" cy="94.7" r="5"/>
+  <circle cx="262.6" cy="91.7" r="5"/>
+  <circle cx="228.5" cy="94.7" r="5"/>
+  <circle cx="208.6" cy="91.7" r="5"/>
+  <circle cx="174.5" cy="94.7" r="5"/>
+  <circle cx="154.6" cy="91.7" r="5"/>
+  <circle cx="120.5" cy="94.7" r="5"/>
+  <circle cx="100.6" cy="91.7" r="5"/>
+  <g>
+    <path class="st1" d="M282.5,310.7V94.7"/>
+    <path class="st1" d="M228.5,94.7v216"/>
+    <path class="st1" d="M174.5,310.7V94.7"/>
+    <path class="st1" d="M120.5,256.7v54"/>
+    <path class="st1" d="M120.5,202.7v54"/>
+    <path class="st1" d="M120.5,148.7v54"/>
+    <path class="st1" d="M120.5,94.7v54"/>
+  </g>
+</svg>
