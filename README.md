@@ -1,18 +1,23 @@
 # Project Aesir: Custom Keyboard PCB Designs
 
-**#### This project is still in progress ####**
+**#### Many of these boards are still works in progress ####**
 
-**Project Aesir** is a collection of custom keyboard PCB designs created using KiCad, aimed at keyboard enthusiasts and DIY makers. Each project in this collection is designed to offer flexibility, from a template for a standard keyboard PCB using the STM32F072CBT6 microcontroller to a split ergonomic keyboard design, also powered by the STM32F072CBT6.
+**Project Aesir** is a collection of custom keyboard PCB designs created using KiCad, aimed at keyboard enthusiasts and DIY makers. Each project in this collection was designed to scratch a specific itch, fill a need, or address a particular problem I had with traditional mechanical keyboards, from a template for a standard keyboard PCB using the STM32F072CBT6 microcontroller to a split ergonomic keyboard design with a modular numpad.
 
 I initially started this collection as a personal respository of templates to get my new projects on the ground running faster, but it has gradually grown to include several board designs I've completed. Make sure to check back in periodically as I add new boards to my collection!
 
 ## Included Projects
 1. **Heimdall**: A full-sized keyboard PCB designed for customization and personal use.
-2. **STM32F072CBT6 Standard Template**: A blank template for creating your own keyboard designs with the STM32F072CBT6 microcontroller.
-3. **STM32F072CBT6 Split Template**: A blank template for creating your own split keyboard designs with the STM32F072CBT6 microcontroller.
-4. **Hermod**: A split ergonomic keyboard design for those seeking an ergonomic, portable build. Featuring a magnetically detachable AND reversible numpad!
+2. **Hermod**: A split ergonomic keyboard design for those seeking an ergonomic, portable build. Featuring a magnetically detachable AND reversible numpad!
+3. **Hermod Mk. II**: A remake of the original Hermod, with an upgraded STM32G474RET6 MCU--granting is more than enough flash and RAM for any LCD animations I can dream up.
+4. **Hermod Mk. III - MX**: An almost complete redesign of the original Hermod line, this time with **MX Spacing** as well as support for both Choc V2 and Gateron KS-33 Switches.
+5. **Mist**: A full sized keyboard with a new take on the spacebar--replacing it with thumb clusters. It also supports Cherry MX/Gateron Normal Profile or Gateron KS-33 Low Profile Switches.
+3. **STM32F072CBT6 Standard Template**: A blank template for creating your own keyboard designs with the STM32F072CBT6 microcontroller.
+4. **STM32F072CBT6 Split Template**: A blank template for creating your own split keyboard designs with the STM32F072CBT6 microcontroller.
 
 ## Getting Started
+
+> Note: There may be footprints I've created or manually altered that aren't packaged with this repository, so if you come across something missing, please create an issue and I'll get it updated!
 
 ### Requirements
 - **KiCad**: Download and install the latest version of [KiCad](https://www.kicad.org/download/).
@@ -47,5 +52,5 @@ These designs are provided as-is, without warranty of any kind. I am not liable 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ## Contact
-For questions or collaboration inquiries, feel free to reach out to me on GitHub or via my [YouTube channel](https://www.youtube.com/ModernHobbyist).
+For questions or collaboration inquiries, feel free to create an issue, reach out to me on GitHub or Discord or via my [YouTube channel](https://www.youtube.com/ModernHobbyist).
 
