@@ -2184,7 +2184,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Hotswap:Gateron-KS33-Hotswap-1.5U"
+		(property "Footprint" "ModHob:KS33_Choc-v2_HS_1.5U"
 			(at 247.65 162.56 0)
 			(effects
 				(font
@@ -2431,7 +2431,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Hotswap:Gateron-KS33-Hotswap-1U"
+		(property "Footprint" "ModHob:KS33_Choc-v2_HS_1U"
 			(at 212.09 186.69 0)
 			(effects
 				(font
@@ -2500,7 +2500,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Hotswap:Gateron-KS33-Hotswap-1U"
+		(property "Footprint" "ModHob:KS33_Choc-v2_HS_1U"
 			(at 229.87 186.69 0)
 			(effects
 				(font
@@ -2569,7 +2569,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Hotswap:Gateron-KS33-Hotswap-1U"
+		(property "Footprint" "ModHob:KS33_Choc-v2_HS_1U"
 			(at 158.75 95.25 0)
 			(effects
 				(font
@@ -2905,7 +2905,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Hotswap:Gateron-KS33-Hotswap-1U"
+		(property "Footprint" "ModHob:KS33_Choc-v2_HS_1U"
 			(at 212.09 118.11 0)
 			(effects
 				(font
@@ -3063,7 +3063,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Hotswap:Gateron-KS33-Hotswap-1U"
+		(property "Footprint" "ModHob:KS33_Choc-v2_HS_1U"
 			(at 229.87 95.25 0)
 			(effects
 				(font
@@ -3221,7 +3221,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Hotswap:Gateron-KS33-Hotswap-1U"
+		(property "Footprint" "ModHob:KS33_Choc-v2_HS_1U"
 			(at 158.75 139.7 0)
 			(effects
 				(font
@@ -3290,7 +3290,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Hotswap:Gateron-KS33-Hotswap-1U"
+		(property "Footprint" "ModHob:KS33_Choc-v2_HS_1U"
 			(at 158.75 162.56 0)
 			(effects
 				(font
@@ -3448,7 +3448,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Hotswap:Gateron-KS33-Hotswap-1U"
+		(property "Footprint" "ModHob:KS33_Choc-v2_HS_1U"
 			(at 194.31 72.39 0)
 			(effects
 				(font
@@ -3517,7 +3517,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Hotswap:Gateron-KS33-Hotswap-1U"
+		(property "Footprint" "ModHob:KS33_Choc-v2_HS_1U"
 			(at 140.97 139.7 0)
 			(effects
 				(font
@@ -3853,7 +3853,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Hotswap:Gateron-KS33-Hotswap-1.5U"
+		(property "Footprint" "ModHob:KS33_Choc-v2_HS_1.5U"
 			(at 247.65 118.11 0)
 			(effects
 				(font
@@ -3922,7 +3922,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Hotswap:Gateron-KS33-Hotswap-1U"
+		(property "Footprint" "ModHob:KS33_Choc-v2_HS_1U"
 			(at 176.53 139.7 0)
 			(effects
 				(font
@@ -3991,7 +3991,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Hotswap:Gateron-KS33-Hotswap-1U"
+		(property "Footprint" "ModHob:KS33_Choc-v2_HS_1U"
 			(at 229.87 162.56 0)
 			(effects
 				(font
@@ -4060,7 +4060,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Hotswap:Gateron-KS33-Hotswap-1U"
+		(property "Footprint" "ModHob:KS33_Choc-v2_HS_1U"
 			(at 158.75 118.11 0)
 			(effects
 				(font
@@ -4307,7 +4307,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Hotswap:Gateron-KS33-Hotswap-1U"
+		(property "Footprint" "ModHob:KS33_Choc-v2_HS_1U"
 			(at 140.97 162.56 0)
 			(effects
 				(font
@@ -4376,7 +4376,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Hotswap:Gateron-KS33-Hotswap-1U"
+		(property "Footprint" "ModHob:KS33_Choc-v2_HS_1U"
 			(at 229.87 72.39 0)
 			(effects
 				(font
@@ -4445,7 +4445,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Hotswap:Gateron-KS33-Hotswap-1.5U"
+		(property "Footprint" "ModHob:KS33_Choc-v2_HS_1.5U"
 			(at 176.53 186.69 0)
 			(effects
 				(font
@@ -4514,7 +4514,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Hotswap:Gateron-KS33-Hotswap-1.5U"
+		(property "Footprint" "ModHob:KS33_Choc-v2_HS_1.5U"
 			(at 247.65 72.39 0)
 			(effects
 				(font
@@ -4672,7 +4672,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Hotswap:Gateron-KS33-Hotswap-1.5U"
+		(property "Footprint" "ModHob:KS33_Choc-v2_HS_1.5U"
 			(at 140.97 186.69 0)
 			(effects
 				(font
@@ -5008,7 +5008,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Hotswap:Gateron-KS33-Hotswap-1U"
+		(property "Footprint" "ModHob:KS33_Choc-v2_HS_1U"
 			(at 176.53 118.11 0)
 			(effects
 				(font
@@ -5166,7 +5166,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Hotswap:Gateron-KS33-Hotswap-1U"
+		(property "Footprint" "ModHob:KS33_Choc-v2_HS_1U"
 			(at 140.97 72.39 0)
 			(effects
 				(font
@@ -5235,7 +5235,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Hotswap:Gateron-KS33-Hotswap-1U"
+		(property "Footprint" "ModHob:KS33_Choc-v2_HS_1U"
 			(at 194.31 162.56 0)
 			(effects
 				(font
@@ -5304,7 +5304,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Hotswap:Gateron-KS33-Hotswap-1U"
+		(property "Footprint" "ModHob:KS33_Choc-v2_HS_1U"
 			(at 194.31 118.11 0)
 			(effects
 				(font
@@ -5373,7 +5373,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Hotswap:Gateron-KS33-Hotswap-1U"
+		(property "Footprint" "ModHob:KS33_Choc-v2_HS_1U"
 			(at 176.53 95.25 0)
 			(effects
 				(font
@@ -5976,7 +5976,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Hotswap:Gateron-KS33-Hotswap-1U"
+		(property "Footprint" "ModHob:KS33_Choc-v2_HS_1U"
 			(at 229.87 139.7 0)
 			(effects
 				(font
@@ -6134,7 +6134,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Hotswap:Gateron-KS33-Hotswap-1U"
+		(property "Footprint" "ModHob:KS33_Choc-v2_HS_1U"
 			(at 194.31 139.7 0)
 			(effects
 				(font
@@ -6559,7 +6559,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Hotswap:Gateron-KS33-Hotswap-1U"
+		(property "Footprint" "ModHob:KS33_Choc-v2_HS_1U"
 			(at 140.97 95.25 0)
 			(effects
 				(font
@@ -6717,7 +6717,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Hotswap:Gateron-KS33-Hotswap-1U"
+		(property "Footprint" "ModHob:KS33_Choc-v2_HS_1U"
 			(at 158.75 72.39 0)
 			(effects
 				(font
@@ -6786,7 +6786,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Hotswap:Gateron-KS33-Hotswap-1U"
+		(property "Footprint" "ModHob:KS33_Choc-v2_HS_1U"
 			(at 229.87 118.11 0)
 			(effects
 				(font
@@ -6855,7 +6855,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Hotswap:Gateron-KS33-Hotswap-1U"
+		(property "Footprint" "ModHob:KS33_Choc-v2_HS_1U"
 			(at 212.09 72.39 0)
 			(effects
 				(font
@@ -6924,7 +6924,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Hotswap:Gateron-KS33-Hotswap-1.5U"
+		(property "Footprint" "ModHob:KS33_Choc-v2_HS_1.5U"
 			(at 158.75 186.69 0)
 			(effects
 				(font
@@ -7082,7 +7082,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Hotswap:Gateron-KS33-Hotswap-1.5U"
+		(property "Footprint" "ModHob:KS33_Choc-v2_HS_1.5U"
 			(at 247.65 139.7 0)
 			(effects
 				(font
@@ -7151,7 +7151,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Hotswap:Gateron-KS33-Hotswap-1U"
+		(property "Footprint" "ModHob:KS33_Choc-v2_HS_1U"
 			(at 140.97 118.11 0)
 			(effects
 				(font
@@ -7220,7 +7220,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Hotswap:Gateron-KS33-Hotswap-1U"
+		(property "Footprint" "ModHob:KS33_Choc-v2_HS_1U"
 			(at 212.09 162.56 0)
 			(effects
 				(font
@@ -7289,7 +7289,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Hotswap:Gateron-KS33-Hotswap-1U"
+		(property "Footprint" "ModHob:KS33_Choc-v2_HS_1U"
 			(at 247.65 186.69 0)
 			(effects
 				(font
@@ -7358,7 +7358,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Hotswap:Gateron-KS33-Hotswap-1U"
+		(property "Footprint" "ModHob:KS33_Choc-v2_HS_1U"
 			(at 176.53 72.39 0)
 			(effects
 				(font
@@ -7516,7 +7516,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Hotswap:Gateron-KS33-Hotswap-1U"
+		(property "Footprint" "ModHob:KS33_Choc-v2_HS_1U"
 			(at 212.09 139.7 0)
 			(effects
 				(font
@@ -7585,7 +7585,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Hotswap:Gateron-KS33-Hotswap-1U"
+		(property "Footprint" "ModHob:KS33_Choc-v2_HS_1U"
 			(at 194.31 186.69 0)
 			(effects
 				(font
@@ -7654,7 +7654,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Hotswap:Gateron-KS33-Hotswap-1.5U"
+		(property "Footprint" "ModHob:KS33_Choc-v2_HS_1.5U"
 			(at 247.65 95.25 0)
 			(effects
 				(font
@@ -7723,7 +7723,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Hotswap:Gateron-KS33-Hotswap-1U"
+		(property "Footprint" "ModHob:KS33_Choc-v2_HS_1U"
 			(at 194.31 95.25 0)
 			(effects
 				(font
@@ -7792,7 +7792,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Hotswap:Gateron-KS33-Hotswap-1U"
+		(property "Footprint" "ModHob:KS33_Choc-v2_HS_1U"
 			(at 176.53 162.56 0)
 			(effects
 				(font
@@ -8039,7 +8039,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Hotswap:Gateron-KS33-Hotswap-1U"
+		(property "Footprint" "ModHob:KS33_Choc-v2_HS_1U"
 			(at 212.09 95.25 0)
 			(effects
 				(font
