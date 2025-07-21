@@ -2096,7 +2096,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ModHob:KS33_Choc-v2_HS_1.5U"
+		(property "Footprint" "ModHob:KS33_Choc-v2_HS_1U"
 			(at 236.22 186.69 0)
 			(effects
 				(font
@@ -3676,7 +3676,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ModHob:KS33_Choc-v2_HS_1.5U"
+		(property "Footprint" "ModHob:KS33_Choc-v2_HS_1U"
 			(at 254 186.69 0)
 			(effects
 				(font
