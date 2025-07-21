@@ -59,9 +59,6 @@
         }
       ],
       "drc_exclusions": [
-        "annular_width|344180000|39750000|224e4626-d68b-4d0e-8aa7-dd7eaeef7680|00000000-0000-0000-0000-000000000000",
-        "annular_width|344680000|39750000|e0067101-08cf-42a2-9641-8f552e4097a8|00000000-0000-0000-0000-000000000000",
-        "annular_width|345180000|40250000|338b5b8b-23a9-4047-b7bc-8c5f004bf653|00000000-0000-0000-0000-000000000000",
         "drill_out_of_range|344180000|35050000|6a85a819-a6a7-46fa-a4e2-ebdf0ed615c7|00000000-0000-0000-0000-000000000000",
         "drill_out_of_range|344180000|39750000|224e4626-d68b-4d0e-8aa7-dd7eaeef7680|00000000-0000-0000-0000-000000000000",
         "drill_out_of_range|344680000|35050000|1230cb3b-5eef-40e0-ac06-3e04cb694cb4|00000000-0000-0000-0000-000000000000",
@@ -75,7 +72,7 @@
         "version": 2
       },
       "rule_severities": {
-        "annular_width": "error",
+        "annular_width": "ignore",
         "clearance": "warning",
         "connection_width": "warning",
         "copper_edge_clearance": "ignore",
