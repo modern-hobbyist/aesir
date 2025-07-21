@@ -387,12 +387,6 @@
 		(uuid "1df1c635-fbfc-4820-b274-f511984e5a2b")
 	)
 	(junction
-		(at 251.46 160.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2c412407-6113-4c9d-93c4-c7f8121decf3")
-	)
-	(junction
 		(at 162.56 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -447,6 +441,12 @@
 		(uuid "57a40b3b-60b7-4589-b8e7-e8d0e397aa13")
 	)
 	(junction
+		(at 251.46 160.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5a58482a-2a0f-4708-98fe-922eb7b408e0")
+	)
+	(junction
 		(at 144.78 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -465,7 +465,7 @@
 		(uuid "6783fca2-9c90-426c-9b28-de9accdd1d84")
 	)
 	(junction
-		(at 220.98 196.85)
+		(at 185.42 196.85)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "69f73f33-8a0a-43c8-8201-ee92d23fa1d8")
@@ -481,6 +481,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "705a0255-27fa-4a50-9b71-0483d8b8ef9c")
+	)
+	(junction
+		(at 238.76 196.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "71ced87e-e1a7-40f2-998e-19f8f98aaf0a")
 	)
 	(junction
 		(at 149.86 82.55)
@@ -513,7 +519,7 @@
 		(uuid "7a84f3a2-b918-42a0-b5b0-22b3301ea866")
 	)
 	(junction
-		(at 238.76 196.85)
+		(at 203.2 196.85)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7af28dbf-57c4-452e-83c4-bd0f234f5d87")
@@ -549,12 +555,6 @@
 		(uuid "8f8df423-abf9-40a6-b8b8-b6987cc956c4")
 	)
 	(junction
-		(at 233.68 160.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a0b1783e-8c5f-4fb4-abb5-e1ab7c045434")
-	)
-	(junction
 		(at 167.64 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -567,10 +567,22 @@
 		(uuid "aa46cb65-1305-4db7-b206-933cecd8a02e")
 	)
 	(junction
+		(at 220.98 196.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aad1ac26-5af5-4283-a8ad-6d3cb5a0c894")
+	)
+	(junction
 		(at 185.42 149.86)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "acd2da0b-3dba-4f01-b20c-32a5c6b42fc0")
+	)
+	(junction
+		(at 198.12 160.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "af544c9a-5545-4ccb-aa86-026893f647ed")
 	)
 	(junction
 		(at 215.9 92.71)
@@ -601,6 +613,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bdc31ad0-51db-4419-ac92-b1ebadd2615f")
+	)
+	(junction
+		(at 180.34 160.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bdee0d64-4b31-497e-a5c8-9bb93322f6a3")
 	)
 	(junction
 		(at 185.42 105.41)
@@ -699,6 +717,12 @@
 		(uuid "f4a68674-f44d-44c9-9332-d07449567c1c")
 	)
 	(junction
+		(at 233.68 160.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f5984410-bb2b-4fe8-8962-d45475fa29be")
+	)
+	(junction
 		(at 215.9 160.02)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -728,7 +752,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 160.02) (xy 215.9 184.15)
+			(xy 180.34 160.02) (xy 180.34 184.15)
 		)
 		(stroke
 			(width 0)
@@ -805,6 +829,16 @@
 			(type default)
 		)
 		(uuid "186f05a7-f974-4aa3-9a20-504bc8a3e51d")
+	)
+	(wire
+		(pts
+			(xy 251.46 160.02) (xy 251.46 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19d48287-8d1c-4e7f-8164-10ef3808b231")
 	)
 	(wire
 		(pts
@@ -928,6 +962,16 @@
 	)
 	(wire
 		(pts
+			(xy 220.98 196.85) (xy 238.76 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f061087-4f1f-420a-a345-639e415371a5")
+	)
+	(wire
+		(pts
 			(xy 220.98 149.86) (xy 238.76 149.86)
 		)
 		(stroke
@@ -988,7 +1032,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 196.85) (xy 256.54 196.85)
+			(xy 203.2 196.85) (xy 220.98 196.85)
 		)
 		(stroke
 			(width 0)
@@ -1118,7 +1162,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 196.85) (xy 220.98 196.85)
+			(xy 143.51 196.85) (xy 185.42 196.85)
 		)
 		(stroke
 			(width 0)
@@ -1128,7 +1172,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 196.85) (xy 238.76 196.85)
+			(xy 185.42 196.85) (xy 203.2 196.85)
 		)
 		(stroke
 			(width 0)
@@ -1178,6 +1222,16 @@
 	)
 	(wire
 		(pts
+			(xy 238.76 196.85) (xy 256.54 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9073acb1-3802-49c3-9a26-0130870e227c")
+	)
+	(wire
+		(pts
 			(xy 220.98 82.55) (xy 238.76 82.55)
 		)
 		(stroke
@@ -1205,6 +1259,16 @@
 			(type default)
 		)
 		(uuid "9a779d90-ca4b-4322-a01e-ca721bb47da8")
+	)
+	(wire
+		(pts
+			(xy 233.68 160.02) (xy 233.68 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ac5981e-2b65-4a47-9a50-14adfb2f8313")
 	)
 	(wire
 		(pts
@@ -1318,7 +1382,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 160.02) (xy 251.46 184.15)
+			(xy 215.9 160.02) (xy 215.9 184.15)
 		)
 		(stroke
 			(width 0)
@@ -1358,7 +1422,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 160.02) (xy 233.68 184.15)
+			(xy 198.12 160.02) (xy 198.12 184.15)
 		)
 		(stroke
 			(width 0)
@@ -1698,7 +1762,7 @@
 	)
 	(global_label "row5"
 		(shape input)
-		(at 179.07 196.85 180)
+		(at 143.51 196.85 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1708,7 +1772,7 @@
 		)
 		(uuid "d2edc7c9-648b-4a7d-8a72-1c8cc8843baa")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 171.6096 196.85 0)
+			(at 136.0496 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2001,6 +2065,74 @@
 			(project "hermod-left"
 				(path "/cb32b2da-a60d-4ed4-a57b-2c397f553171/d515a0f5-02b9-43be-9c9a-ca0ce99df960"
 					(reference "CH29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-choc:choc_v1_SW_HS_CPG135001S30")
+		(at 236.22 186.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1079a057-061a-447c-bf4b-b41847d2f344")
+		(property "Reference" "CH39"
+			(at 236.22 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "gateron_ks33_hs_1U"
+			(at 236.22 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ModHob:KS33_Choc-v2_HS_1.5U"
+			(at 236.22 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 236.22 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 236.22 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1131dfae-98ed-4c22-8176-1a4d8e264577")
+		)
+		(pin "1"
+			(uuid "a9b7d023-153e-490c-bec1-75cc850c60d3")
+		)
+		(instances
+			(project "hermod-left"
+				(path "/cb32b2da-a60d-4ed4-a57b-2c397f553171/d515a0f5-02b9-43be-9c9a-ca0ce99df960"
+					(reference "CH39")
 					(unit 1)
 				)
 			)
@@ -3520,6 +3652,74 @@
 	)
 	(symbol
 		(lib_id "PCM_marbastlib-choc:choc_v1_SW_HS_CPG135001S30")
+		(at 254 186.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4676dec9-51e7-4bdc-bae4-190ca26fb5fa")
+		(property "Reference" "CH40"
+			(at 254 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "gateron_ks33_hs_1U"
+			(at 254 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ModHob:KS33_Choc-v2_HS_1.5U"
+			(at 254 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 254 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 254 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ee143dc7-d196-48bb-9471-3b199500d734")
+		)
+		(pin "1"
+			(uuid "e135fba5-899c-47ed-af80-b55afb4c5c90")
+		)
+		(instances
+			(project "hermod-left"
+				(path "/cb32b2da-a60d-4ed4-a57b-2c397f553171/d515a0f5-02b9-43be-9c9a-ca0ce99df960"
+					(reference "CH40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-choc:choc_v1_SW_HS_CPG135001S30")
 		(at 218.44 139.7 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3948,7 +4148,7 @@
 	)
 	(symbol
 		(lib_id "PCM_marbastlib-choc:choc_v1_SW_HS_CPG135001S30")
-		(at 218.44 186.69 0)
+		(at 182.88 186.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3957,7 +4157,7 @@
 		(fields_autoplaced yes)
 		(uuid "57fac598-dfd5-475a-bbf8-dbf55c3dd2b5")
 		(property "Reference" "CH36"
-			(at 218.44 179.07 0)
+			(at 182.88 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3965,7 +4165,7 @@
 			)
 		)
 		(property "Value" "gateron_ks33_hs_1U"
-			(at 218.44 181.61 0)
+			(at 182.88 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3973,7 +4173,7 @@
 			)
 		)
 		(property "Footprint" "ModHob:KS33_Choc-v2_HS_1.5U"
-			(at 218.44 186.69 0)
+			(at 182.88 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3982,7 +4182,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 218.44 186.69 0)
+			(at 182.88 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3991,7 +4191,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 218.44 186.69 0)
+			(at 182.88 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4084,7 +4284,7 @@
 	)
 	(symbol
 		(lib_id "PCM_marbastlib-choc:choc_v1_SW_HS_CPG135001S30")
-		(at 254 186.69 0)
+		(at 218.44 186.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4093,7 +4293,7 @@
 		(fields_autoplaced yes)
 		(uuid "68edea2c-ed11-452c-a82a-e3aceece8241")
 		(property "Reference" "CH38"
-			(at 254 179.07 0)
+			(at 218.44 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4101,7 +4301,7 @@
 			)
 		)
 		(property "Value" "gateron_ks33_hs_1U"
-			(at 254 181.61 0)
+			(at 218.44 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4109,7 +4309,7 @@
 			)
 		)
 		(property "Footprint" "ModHob:KS33_Choc-v2_HS_1.5U"
-			(at 254 186.69 0)
+			(at 218.44 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4118,7 +4318,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 254 186.69 0)
+			(at 218.44 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4127,7 +4327,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 254 186.69 0)
+			(at 218.44 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4409,6 +4609,94 @@
 			(project "hermod-left"
 				(path "/cb32b2da-a60d-4ed4-a57b-2c397f553171/d515a0f5-02b9-43be-9c9a-ca0ce99df960"
 					(reference "D33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 256.54 193.04 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "80b5511f-1c5d-464b-8e27-6eb75d2339cd")
+		(property "Reference" "D42"
+			(at 259.08 191.7699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 259.08 194.3099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 256.54 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 256.54 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 256.54 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 256.54 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 256.54 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d16bca07-d834-4ab5-8c82-83588aabcfc9")
+		)
+		(pin "2"
+			(uuid "af98cf40-5047-43ed-8bba-bbfae8791b1b")
+		)
+		(instances
+			(project "hermod-left"
+				(path "/cb32b2da-a60d-4ed4-a57b-2c397f553171/d515a0f5-02b9-43be-9c9a-ca0ce99df960"
+					(reference "D42")
 					(unit 1)
 				)
 			)
@@ -6103,6 +6391,94 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D")
+		(at 238.76 193.04 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b982cf03-3200-4bf1-8357-e5a46df2d3b1")
+		(property "Reference" "D39"
+			(at 241.3 191.7699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 241.3 194.3099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 238.76 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 238.76 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 238.76 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 238.76 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 238.76 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "688aa08d-324d-4af5-bc5e-af0f71e4365c")
+		)
+		(pin "2"
+			(uuid "8f94d566-4ab8-4bd9-b842-3220925c0121")
+		)
+		(instances
+			(project "hermod-left"
+				(path "/cb32b2da-a60d-4ed4-a57b-2c397f553171/d515a0f5-02b9-43be-9c9a-ca0ce99df960"
+					(reference "D39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_marbastlib-choc:choc_v1_SW_HS_CPG135001S30")
 		(at 236.22 72.39 0)
 		(unit 1)
@@ -6308,7 +6684,7 @@
 	)
 	(symbol
 		(lib_id "PCM_marbastlib-choc:choc_v1_SW_HS_CPG135001S30")
-		(at 236.22 186.69 0)
+		(at 200.66 186.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6317,7 +6693,7 @@
 		(fields_autoplaced yes)
 		(uuid "ca991146-375e-41b4-b343-49c76892499a")
 		(property "Reference" "CH37"
-			(at 236.22 179.07 0)
+			(at 200.66 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6325,7 +6701,7 @@
 			)
 		)
 		(property "Value" "gateron_ks33_hs_1U"
-			(at 236.22 181.61 0)
+			(at 200.66 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6333,7 +6709,7 @@
 			)
 		)
 		(property "Footprint" "ModHob:KS33_Choc-v2_HS_1.5U"
-			(at 236.22 186.69 0)
+			(at 200.66 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6342,7 +6718,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 236.22 186.69 0)
+			(at 200.66 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6351,7 +6727,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 236.22 186.69 0)
+			(at 200.66 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7184,7 +7560,7 @@
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 256.54 193.04 90)
+		(at 220.98 193.04 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7193,7 +7569,7 @@
 		(fields_autoplaced yes)
 		(uuid "e62f8614-4283-4950-85e9-9ecea9644be9")
 		(property "Reference" "D38"
-			(at 259.08 191.7699 90)
+			(at 223.52 191.7699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7202,7 +7578,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 259.08 194.3099 90)
+			(at 223.52 194.3099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7211,7 +7587,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 256.54 193.04 0)
+			(at 220.98 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7220,7 +7596,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 256.54 193.04 0)
+			(at 220.98 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7229,7 +7605,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 256.54 193.04 0)
+			(at 220.98 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7238,7 +7614,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 256.54 193.04 0)
+			(at 220.98 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7247,7 +7623,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 256.54 193.04 0)
+			(at 220.98 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7340,7 +7716,7 @@
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 238.76 193.04 90)
+		(at 203.2 193.04 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7349,7 +7725,7 @@
 		(fields_autoplaced yes)
 		(uuid "eb13382c-118f-4781-9f78-93848e297163")
 		(property "Reference" "D37"
-			(at 241.3 191.7699 90)
+			(at 205.74 191.7699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7358,7 +7734,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 241.3 194.3099 90)
+			(at 205.74 194.3099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7367,7 +7743,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 238.76 193.04 0)
+			(at 203.2 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7376,7 +7752,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 238.76 193.04 0)
+			(at 203.2 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7385,7 +7761,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 238.76 193.04 0)
+			(at 203.2 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7394,7 +7770,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 238.76 193.04 0)
+			(at 203.2 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7403,7 +7779,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 238.76 193.04 0)
+			(at 203.2 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7604,7 +7980,7 @@
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 220.98 193.04 90)
+		(at 185.42 193.04 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7613,7 +7989,7 @@
 		(fields_autoplaced yes)
 		(uuid "ff51b7bf-2862-4ef5-95e0-8664b13cc068")
 		(property "Reference" "D36"
-			(at 223.52 191.7699 90)
+			(at 187.96 191.7699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7622,7 +7998,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 223.52 194.3099 90)
+			(at 187.96 194.3099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7631,7 +8007,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 220.98 193.04 0)
+			(at 185.42 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7640,7 +8016,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 220.98 193.04 0)
+			(at 185.42 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7649,7 +8025,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 220.98 193.04 0)
+			(at 185.42 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7658,7 +8034,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 220.98 193.04 0)
+			(at 185.42 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7667,7 +8043,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 220.98 193.04 0)
+			(at 185.42 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)

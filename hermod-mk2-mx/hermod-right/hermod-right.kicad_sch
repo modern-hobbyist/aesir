@@ -8209,7 +8209,7 @@
 	)
 	(global_label "row6"
 		(shape input)
-		(at 25.4 85.09 180)
+		(at 25.4 64.77 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8219,7 +8219,7 @@
 		)
 		(uuid "5e884ef5-37ca-4530-91ab-b8d708ef9a4c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 17.9396 85.09 0)
+			(at 17.9396 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8733,7 +8733,7 @@
 	)
 	(global_label "row5"
 		(shape input)
-		(at 25.4 64.77 180)
+		(at 25.4 85.09 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8743,7 +8743,7 @@
 		)
 		(uuid "9ea4a2b7-08f0-419f-9d96-2255a9123e50")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 17.9396 64.77 0)
+			(at 17.9396 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11876,7 +11876,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5c0c8001-70fb-48b3-a6a3-3a02416fc794")
-		(property "Reference" "D44"
+		(property "Reference" "D45"
 			(at 225.552 162.6616 90)
 			(effects
 				(font
@@ -11930,7 +11930,7 @@
 		(instances
 			(project "hermod-right"
 				(path "/cb32b2da-a60d-4ed4-a57b-2c397f553171"
-					(reference "D44")
+					(reference "D45")
 					(unit 1)
 				)
 			)
@@ -12744,7 +12744,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8371d4bc-d0d8-48d1-b74c-40215d068eaa")
-		(property "Reference" "D45"
+		(property "Reference" "D46"
 			(at 225.552 192.9384 90)
 			(effects
 				(font
@@ -12798,7 +12798,7 @@
 		(instances
 			(project "hermod-right"
 				(path "/cb32b2da-a60d-4ed4-a57b-2c397f553171"
-					(reference "D45")
+					(reference "D46")
 					(unit 1)
 				)
 			)
@@ -13750,7 +13750,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bdf11d92-c489-4414-b244-cad140a4d49f")
-		(property "Reference" "C44"
+		(property "Reference" "C100"
 			(at 121.031 137.2616 0)
 			(effects
 				(font
@@ -13822,7 +13822,7 @@
 		(instances
 			(project "hermod-right"
 				(path "/cb32b2da-a60d-4ed4-a57b-2c397f553171"
-					(reference "C44")
+					(reference "C100")
 					(unit 1)
 				)
 			)

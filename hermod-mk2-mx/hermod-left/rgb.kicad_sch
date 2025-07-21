@@ -657,10 +657,16 @@
 		(uuid "12a65c25-036b-46fd-9615-e4f5a4b8c8fa")
 	)
 	(junction
-		(at 237.49 278.13)
+		(at 158.75 280.67)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "13c5871c-4eb4-475c-809b-3358990dee76")
+	)
+	(junction
+		(at 158.75 274.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "15a78d82-fca5-4d5a-825b-ef172fa861dc")
 	)
 	(junction
 		(at 158.75 48.26)
@@ -675,7 +681,7 @@
 		(uuid "18486973-fa00-4a51-8c4b-d9aaaf7f129d")
 	)
 	(junction
-		(at 177.8 278.13)
+		(at 99.06 280.67)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "21bf4d01-c211-462c-a81e-a287a1fadada")
@@ -697,6 +703,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "27ef1f89-22b5-4f4e-9f25-522d54dcc7e7")
+	)
+	(junction
+		(at 189.23 280.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "29f2bd1f-f507-4782-9178-c36a42f2ef67")
 	)
 	(junction
 		(at 72.39 168.91)
@@ -723,7 +735,13 @@
 		(uuid "31e39d80-5941-48c2-997f-65502599d4f6")
 	)
 	(junction
-		(at 208.28 278.13)
+		(at 189.23 274.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3431ca2d-28b4-4b2c-8488-bfd82485cb25")
+	)
+	(junction
+		(at 129.54 280.67)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "34d93266-27e3-44d1-9d59-ede826a59989")
@@ -771,6 +789,12 @@
 		(uuid "3d13796d-405c-422b-87ed-b9c825af2eb1")
 	)
 	(junction
+		(at 189.23 304.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3db40fb0-6f76-46f8-9dcb-2398296daf4a")
+	)
+	(junction
 		(at 190.5 138.43)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -801,7 +825,7 @@
 		(uuid "488e3002-db81-4979-b87d-cdcb3ff26590")
 	)
 	(junction
-		(at 177.8 302.26)
+		(at 99.06 304.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4b50ef34-83f5-47e1-adba-24ea8ff2ea4e")
@@ -855,13 +879,19 @@
 		(uuid "59cf2ded-f3ea-4283-b947-4a0afefee9a7")
 	)
 	(junction
+		(at 158.75 304.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "66118aa0-99f1-44f9-84a3-b922f14c4b63")
+	)
+	(junction
 		(at 121.92 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "685aedef-d1fc-45d7-bc7a-2e849fbb696e")
 	)
 	(junction
-		(at 177.8 271.78)
+		(at 99.06 274.32)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "68ac9d5d-3e0c-4578-9ad8-6dd5055345cb")
@@ -933,7 +963,7 @@
 		(uuid "8ecfcdd3-4243-427f-b767-710d047aab6c")
 	)
 	(junction
-		(at 208.28 271.78)
+		(at 129.54 274.32)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8ed59cee-e811-4a2e-9122-dc9e95b97440")
@@ -943,6 +973,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "92787b44-95f2-45f1-be12-bebed582d43b")
+	)
+	(junction
+		(at 218.44 280.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "93c5d208-a2b7-4022-9c6a-50e011c1f55b")
 	)
 	(junction
 		(at 158.75 43.18)
@@ -1155,7 +1191,7 @@
 		(uuid "e10e2b98-c0de-4d3b-997a-9e005d24d7ae")
 	)
 	(junction
-		(at 208.28 302.26)
+		(at 129.54 304.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e39ef9ef-0ba3-48a0-8af5-c30d8cfee536")
@@ -1220,7 +1256,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 271.78) (xy 158.75 271.78)
+			(xy 99.06 274.32) (xy 80.01 274.32)
 		)
 		(stroke
 			(width 0)
@@ -1237,6 +1273,16 @@
 			(type default)
 		)
 		(uuid "027cd1da-d61b-4d0b-8897-56863aac8e6f")
+	)
+	(wire
+		(pts
+			(xy 158.75 304.8) (xy 189.23 304.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "034f4cab-98d0-4ecc-922e-30f9a9e361d2")
 	)
 	(wire
 		(pts
@@ -1320,13 +1366,23 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 297.18) (xy 237.49 302.26)
+			(xy 158.75 299.72) (xy 158.75 304.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "0acdff32-5f56-4105-a0ab-55f4203ae542")
+	)
+	(wire
+		(pts
+			(xy 189.23 299.72) (xy 189.23 304.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b253e80-5c33-4724-afc5-cb9664c6d42f")
 	)
 	(wire
 		(pts
@@ -1690,7 +1746,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 278.13) (xy 208.28 281.94)
+			(xy 129.54 280.67) (xy 129.54 284.48)
 		)
 		(stroke
 			(width 0)
@@ -1990,7 +2046,7 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 278.13) (xy 237.49 281.94)
+			(xy 158.75 280.67) (xy 158.75 284.48)
 		)
 		(stroke
 			(width 0)
@@ -2090,7 +2146,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 302.26) (xy 208.28 302.26)
+			(xy 99.06 304.8) (xy 129.54 304.8)
 		)
 		(stroke
 			(width 0)
@@ -2170,6 +2226,16 @@
 	)
 	(wire
 		(pts
+			(xy 158.75 274.32) (xy 189.23 274.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "679e1d97-f3c0-43d6-82ff-0e14c05a70cc")
+	)
+	(wire
+		(pts
 			(xy 190.5 124.46) (xy 220.98 124.46)
 		)
 		(stroke
@@ -2180,13 +2246,23 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 302.26) (xy 237.49 302.26)
+			(xy 129.54 304.8) (xy 158.75 304.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "67d2a435-9249-4310-8365-915e606e05e7")
+	)
+	(wire
+		(pts
+			(xy 218.44 274.32) (xy 218.44 280.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67fe2783-1f26-4338-946c-36871cdf04af")
 	)
 	(wire
 		(pts
@@ -2287,6 +2363,16 @@
 			(type default)
 		)
 		(uuid "73e9aa85-6e76-4960-8a69-b8152cc438e4")
+	)
+	(wire
+		(pts
+			(xy 189.23 274.32) (xy 218.44 274.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "752aa9e2-d7b0-447e-9223-8863d46f7860")
 	)
 	(wire
 		(pts
@@ -2440,7 +2526,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 271.78) (xy 237.49 271.78)
+			(xy 129.54 274.32) (xy 158.75 274.32)
 		)
 		(stroke
 			(width 0)
@@ -2600,6 +2686,16 @@
 	)
 	(wire
 		(pts
+			(xy 189.23 304.8) (xy 218.44 304.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "939fab38-67e1-4313-b681-56a9fb0736af")
+	)
+	(wire
+		(pts
 			(xy 262.89 110.49) (xy 292.1 110.49)
 		)
 		(stroke
@@ -2670,6 +2766,16 @@
 	)
 	(wire
 		(pts
+			(xy 218.44 299.72) (xy 218.44 304.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d0b9c1c-5282-436b-893a-9596124aceb5")
+	)
+	(wire
+		(pts
 			(xy 72.39 190.5) (xy 72.39 185.42)
 		)
 		(stroke
@@ -2700,7 +2806,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 271.78) (xy 158.75 270.51)
+			(xy 80.01 274.32) (xy 80.01 273.05)
 		)
 		(stroke
 			(width 0)
@@ -2710,7 +2816,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 278.13) (xy 177.8 281.94)
+			(xy 99.06 280.67) (xy 99.06 284.48)
 		)
 		(stroke
 			(width 0)
@@ -2727,6 +2833,16 @@
 			(type default)
 		)
 		(uuid "a2d8873a-6aa4-4e4e-834e-5aba6a163042")
+	)
+	(wire
+		(pts
+			(xy 189.23 280.67) (xy 189.23 284.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a30b8748-96cb-41f7-83b0-6286e630cc6e")
 	)
 	(wire
 		(pts
@@ -2970,6 +3086,16 @@
 	)
 	(wire
 		(pts
+			(xy 218.44 280.67) (xy 218.44 284.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c34a944a-579b-4081-a12c-a0a64b485073")
+	)
+	(wire
+		(pts
 			(xy 80.01 247.65) (xy 90.17 247.65)
 		)
 		(stroke
@@ -3050,7 +3176,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 289.56) (xy 229.87 289.56)
+			(xy 137.16 292.1) (xy 151.13 292.1)
 		)
 		(stroke
 			(width 0)
@@ -3090,7 +3216,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 278.13) (xy 177.8 271.78)
+			(xy 99.06 280.67) (xy 99.06 274.32)
 		)
 		(stroke
 			(width 0)
@@ -3120,7 +3246,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 297.18) (xy 177.8 302.26)
+			(xy 99.06 299.72) (xy 99.06 304.8)
 		)
 		(stroke
 			(width 0)
@@ -3150,7 +3276,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 271.78) (xy 208.28 271.78)
+			(xy 99.06 274.32) (xy 129.54 274.32)
 		)
 		(stroke
 			(width 0)
@@ -3227,6 +3353,16 @@
 			(type default)
 		)
 		(uuid "d9ee0eb2-f5f5-43a0-ba39-55574e464ece")
+	)
+	(wire
+		(pts
+			(xy 166.37 292.1) (xy 181.61 292.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db0ea0f8-20c4-4374-acef-54c92ef8674c")
 	)
 	(wire
 		(pts
@@ -3340,7 +3476,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 302.26) (xy 165.1 302.26)
+			(xy 99.06 304.8) (xy 86.36 304.8)
 		)
 		(stroke
 			(width 0)
@@ -3350,7 +3486,7 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 271.78) (xy 237.49 278.13)
+			(xy 158.75 274.32) (xy 158.75 280.67)
 		)
 		(stroke
 			(width 0)
@@ -3367,6 +3503,16 @@
 			(type default)
 		)
 		(uuid "e4ac9775-5048-4a3e-9b0f-56480d4b2370")
+	)
+	(wire
+		(pts
+			(xy 196.85 292.1) (xy 210.82 292.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5d5d01f-47a1-4c16-b74a-a409da5be8d9")
 	)
 	(wire
 		(pts
@@ -3430,6 +3576,16 @@
 	)
 	(wire
 		(pts
+			(xy 189.23 274.32) (xy 189.23 280.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebe557f4-1fde-4415-af62-b7929d59a55a")
+	)
+	(wire
+		(pts
 			(xy 97.79 118.11) (xy 97.79 124.46)
 		)
 		(stroke
@@ -3460,7 +3616,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 297.18) (xy 208.28 302.26)
+			(xy 129.54 299.72) (xy 129.54 304.8)
 		)
 		(stroke
 			(width 0)
@@ -3600,7 +3756,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 289.56) (xy 200.66 289.56)
+			(xy 106.68 292.1) (xy 121.92 292.1)
 		)
 		(stroke
 			(width 0)
@@ -3610,7 +3766,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 271.78) (xy 208.28 278.13)
+			(xy 129.54 274.32) (xy 129.54 280.67)
 		)
 		(stroke
 			(width 0)
@@ -3750,7 +3906,7 @@
 	)
 	(global_label "DOut5"
 		(shape input)
-		(at 170.18 289.56 180)
+		(at 91.44 292.1 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3760,7 +3916,7 @@
 		)
 		(uuid "b9b0687e-9473-4f34-999d-855e5fe6b300")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 161.5101 289.56 0)
+			(at 82.7701 292.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4303,7 +4459,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 241.3 278.13 90)
+		(at 162.56 280.67 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4311,7 +4467,7 @@
 		(dnp no)
 		(uuid "143902ba-2cd1-45de-a9fb-0c51ad06cd90")
 		(property "Reference" "C38"
-			(at 241.046 274.066 90)
+			(at 162.306 276.606 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4319,7 +4475,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 245.872 276.352 90)
+			(at 167.132 278.892 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4327,7 +4483,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 245.11 277.1648 0)
+			(at 166.37 279.7048 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4336,7 +4492,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 241.3 278.13 0)
+			(at 162.56 280.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4345,7 +4501,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 241.3 278.13 0)
+			(at 162.56 280.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4370,7 +4526,7 @@
 	)
 	(symbol
 		(lib_id "PCM_marbastlib-choc:choc_SK6812MINI-E")
-		(at 237.49 289.56 0)
+		(at 158.75 292.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4378,7 +4534,7 @@
 		(dnp no)
 		(uuid "156bfd25-9ee7-414f-a9a4-cd66c3a1002c")
 		(property "Reference" "LED38"
-			(at 248.158 293.624 0)
+			(at 169.418 296.164 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4386,7 +4542,7 @@
 			)
 		)
 		(property "Value" "choc_SK6812MINI-E"
-			(at 248.158 296.164 0)
+			(at 169.418 298.704 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4394,7 +4550,7 @@
 			)
 		)
 		(property "Footprint" "PCM_marbastlib-choc:LED_choc_6028R"
-			(at 237.49 289.56 0)
+			(at 158.75 292.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4403,7 +4559,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 237.49 289.56 0)
+			(at 158.75 292.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4412,7 +4568,7 @@
 			)
 		)
 		(property "Description" "Reverse mount adressable LED (WS2812 protocol)"
-			(at 237.49 289.56 0)
+			(at 158.75 292.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4998,6 +5154,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 196.85 280.67 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "25ac41d9-c68e-4edd-887d-bfba58446c14")
+		(property "Reference" "#PWR072"
+			(at 203.2 280.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 200.66 280.6699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 196.85 280.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 196.85 280.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 196.85 280.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "86379e1c-08fb-4cfe-a80a-2d39e9a23c31")
+		)
+		(instances
+			(project "hermod-left"
+				(path "/cb32b2da-a60d-4ed4-a57b-2c397f553171/f7d769d0-af01-4616-8268-78b90e40accc"
+					(reference "#PWR072")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 259.08 99.06 90)
 		(unit 1)
@@ -5066,7 +5289,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 215.9 278.13 90)
+		(at 137.16 280.67 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5075,7 +5298,7 @@
 		(fields_autoplaced yes)
 		(uuid "2abce357-70f5-42e1-8da4-8931fbdc5a69")
 		(property "Reference" "#PWR077"
-			(at 222.25 278.13 0)
+			(at 143.51 280.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5084,7 +5307,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 219.71 278.1299 90)
+			(at 140.97 280.6699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5093,7 +5316,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 215.9 278.13 0)
+			(at 137.16 280.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5102,7 +5325,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 215.9 278.13 0)
+			(at 137.16 280.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5111,7 +5334,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 215.9 278.13 0)
+			(at 137.16 280.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5401,7 +5624,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 181.61 278.13 90)
+		(at 102.87 280.67 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5409,7 +5632,7 @@
 		(dnp no)
 		(uuid "34de15c0-64f4-4289-adba-da0743f5f753")
 		(property "Reference" "C36"
-			(at 181.356 274.066 90)
+			(at 102.616 276.606 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5417,7 +5640,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 186.182 276.352 90)
+			(at 107.442 278.892 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5425,7 +5648,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 185.42 277.1648 0)
+			(at 106.68 279.7048 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5434,7 +5657,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 181.61 278.13 0)
+			(at 102.87 280.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5443,7 +5666,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 181.61 278.13 0)
+			(at 102.87 280.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5674,7 +5897,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 185.42 278.13 90)
+		(at 106.68 280.67 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5683,7 +5906,7 @@
 		(fields_autoplaced yes)
 		(uuid "37981dc9-d8dc-46ad-b016-5627d6a05f23")
 		(property "Reference" "#PWR076"
-			(at 191.77 278.13 0)
+			(at 113.03 280.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5692,7 +5915,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 189.23 278.1299 90)
+			(at 110.49 280.6699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5701,7 +5924,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 185.42 278.13 0)
+			(at 106.68 280.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5710,7 +5933,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 185.42 278.13 0)
+			(at 106.68 280.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5719,7 +5942,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 185.42 278.13 0)
+			(at 106.68 280.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6369,7 +6592,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 212.09 278.13 90)
+		(at 133.35 280.67 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6377,7 +6600,7 @@
 		(dnp no)
 		(uuid "4e3c3f04-562a-4bbb-bc5a-ca8aa215a294")
 		(property "Reference" "C37"
-			(at 211.836 274.066 90)
+			(at 133.096 276.606 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6385,7 +6608,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 216.662 276.352 90)
+			(at 137.922 278.892 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6393,7 +6616,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 215.9 277.1648 0)
+			(at 137.16 279.7048 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6402,7 +6625,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 212.09 278.13 0)
+			(at 133.35 280.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6411,7 +6634,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 212.09 278.13 0)
+			(at 133.35 280.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6503,7 +6726,7 @@
 	)
 	(symbol
 		(lib_id "PCM_marbastlib-choc:choc_SK6812MINI-E")
-		(at 208.28 289.56 0)
+		(at 129.54 292.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6511,7 +6734,7 @@
 		(dnp no)
 		(uuid "509055c4-d266-4c3d-88cb-ee9f27eadb6b")
 		(property "Reference" "LED37"
-			(at 219.202 293.624 0)
+			(at 140.462 296.164 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6519,7 +6742,7 @@
 			)
 		)
 		(property "Value" "choc_SK6812MINI-E"
-			(at 219.202 296.164 0)
+			(at 140.462 298.704 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6527,7 +6750,7 @@
 			)
 		)
 		(property "Footprint" "PCM_marbastlib-choc:LED_choc_6028R"
-			(at 208.28 289.56 0)
+			(at 129.54 292.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6536,7 +6759,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 208.28 289.56 0)
+			(at 129.54 292.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6545,7 +6768,7 @@
 			)
 		)
 		(property "Description" "Reverse mount adressable LED (WS2812 protocol)"
-			(at 208.28 289.56 0)
+			(at 129.54 292.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7197,7 +7420,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 165.1 302.26 270)
+		(at 86.36 304.8 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7206,7 +7429,7 @@
 		(fields_autoplaced yes)
 		(uuid "5e2b6b80-9537-4fa5-ab58-c94c62729f2d")
 		(property "Reference" "#PWR080"
-			(at 158.75 302.26 0)
+			(at 80.01 304.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7215,7 +7438,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 161.29 302.2599 90)
+			(at 82.55 304.7999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7224,7 +7447,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 165.1 302.26 0)
+			(at 86.36 304.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7233,7 +7456,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 165.1 302.26 0)
+			(at 86.36 304.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7242,7 +7465,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 165.1 302.26 0)
+			(at 86.36 304.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7390,6 +7613,79 @@
 			(project "hermod-left"
 				(path "/cb32b2da-a60d-4ed4-a57b-2c397f553171/f7d769d0-af01-4616-8268-78b90e40accc"
 					(reference "#PWR048")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-choc:choc_SK6812MINI-E")
+		(at 218.44 292.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "649b9742-4660-420a-8384-b0005960bfd7")
+		(property "Reference" "LED40"
+			(at 229.108 296.164 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "choc_SK6812MINI-E"
+			(at 229.108 298.704 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-choc:LED_choc_6028R"
+			(at 218.44 292.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 218.44 292.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Reverse mount adressable LED (WS2812 protocol)"
+			(at 218.44 292.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "326a3002-2358-447a-b24b-dcbaa668a467")
+		)
+		(pin "4"
+			(uuid "9a45e842-49aa-4ecb-bc0b-d11f7aeb05f1")
+		)
+		(pin "3"
+			(uuid "aaff49a6-8317-4b8e-8bd6-3c74438dd9c4")
+		)
+		(pin "1"
+			(uuid "4bd90f0a-ee50-4959-addf-f645680481ba")
+		)
+		(instances
+			(project "hermod-left"
+				(path "/cb32b2da-a60d-4ed4-a57b-2c397f553171/f7d769d0-af01-4616-8268-78b90e40accc"
+					(reference "LED40")
 					(unit 1)
 				)
 			)
@@ -8560,6 +8856,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 193.04 280.67 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "83bc3853-5a5f-4872-ba07-b0ec0ee8ec00")
+		(property "Reference" "C39"
+			(at 192.786 276.606 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 197.612 278.892 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 196.85 279.7048 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 193.04 280.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 193.04 280.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2875960a-8045-4bb4-964a-dee1d73bfd23")
+		)
+		(pin "2"
+			(uuid "c8d92181-07c3-4a3b-af43-d13c516591ec")
+		)
+		(instances
+			(project "hermod-left"
+				(path "/cb32b2da-a60d-4ed4-a57b-2c397f553171/f7d769d0-af01-4616-8268-78b90e40accc"
+					(reference "C39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 80.01 236.22 90)
 		(unit 1)
@@ -8829,7 +9192,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 245.11 278.13 90)
+		(at 166.37 280.67 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8838,7 +9201,7 @@
 		(fields_autoplaced yes)
 		(uuid "97a59b0e-d090-43d5-9c1f-389487c49656")
 		(property "Reference" "#PWR078"
-			(at 251.46 278.13 0)
+			(at 172.72 280.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8847,7 +9210,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 248.92 278.1299 90)
+			(at 170.18 280.6699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8856,7 +9219,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 245.11 278.13 0)
+			(at 166.37 280.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8865,7 +9228,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 245.11 278.13 0)
+			(at 166.37 280.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8874,7 +9237,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 245.11 278.13 0)
+			(at 166.37 280.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10338,7 +10701,7 @@
 	)
 	(symbol
 		(lib_id "PCM_marbastlib-choc:choc_SK6812MINI-E")
-		(at 177.8 289.56 0)
+		(at 99.06 292.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10346,7 +10709,7 @@
 		(dnp no)
 		(uuid "bcedc92c-0ee4-4289-905a-c1c1e42e2abc")
 		(property "Reference" "LED36"
-			(at 188.468 293.624 0)
+			(at 109.728 296.164 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10354,7 +10717,7 @@
 			)
 		)
 		(property "Value" "choc_SK6812MINI-E"
-			(at 188.468 296.164 0)
+			(at 109.728 298.704 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10362,7 +10725,7 @@
 			)
 		)
 		(property "Footprint" "PCM_marbastlib-choc:LED_choc_6028R"
-			(at 177.8 289.56 0)
+			(at 99.06 292.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10371,7 +10734,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 177.8 289.56 0)
+			(at 99.06 292.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10380,7 +10743,7 @@
 			)
 		)
 		(property "Description" "Reverse mount adressable LED (WS2812 protocol)"
-			(at 177.8 289.56 0)
+			(at 99.06 292.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10404,6 +10767,73 @@
 			(project "modern-keyboard"
 				(path "/cb32b2da-a60d-4ed4-a57b-2c397f553171/f7d769d0-af01-4616-8268-78b90e40accc"
 					(reference "LED36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 222.25 280.67 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "beda963a-3358-4b81-9339-192c06d86927")
+		(property "Reference" "C40"
+			(at 221.996 276.606 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 226.822 278.892 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 226.06 279.7048 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 222.25 280.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 222.25 280.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "825a6c66-4908-4a4c-b6b1-b16ebaa8509a")
+		)
+		(pin "2"
+			(uuid "7587511f-e83e-449d-b6c1-9c96daefda42")
+		)
+		(instances
+			(project "hermod-left"
+				(path "/cb32b2da-a60d-4ed4-a57b-2c397f553171/f7d769d0-af01-4616-8268-78b90e40accc"
+					(reference "C40")
 					(unit 1)
 				)
 			)
@@ -11048,6 +11478,73 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 226.06 280.67 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d0f053ea-1adb-4b7b-a790-75ecd2c8beee")
+		(property "Reference" "#PWR079"
+			(at 232.41 280.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 229.87 280.6699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 226.06 280.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 226.06 280.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 226.06 280.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "77bee9fb-e5c3-4c30-9e85-d5fbd1f0757d")
+		)
+		(instances
+			(project "hermod-left"
+				(path "/cb32b2da-a60d-4ed4-a57b-2c397f553171/f7d769d0-af01-4616-8268-78b90e40accc"
+					(reference "#PWR079")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 262.89 99.06 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11183,7 +11680,7 @@
 	(symbol
 		(lib_name "+5V_1")
 		(lib_id "power:+5V")
-		(at 158.75 270.51 0)
+		(at 80.01 273.05 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11192,7 +11689,7 @@
 		(fields_autoplaced yes)
 		(uuid "d43086a8-202f-4411-a02f-72b6553b948c")
 		(property "Reference" "#PWR075"
-			(at 158.75 274.32 0)
+			(at 80.01 276.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11201,7 +11698,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 158.75 266.065 0)
+			(at 80.01 268.605 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11209,7 +11706,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 158.75 270.51 0)
+			(at 80.01 273.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11218,7 +11715,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 158.75 270.51 0)
+			(at 80.01 273.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11227,7 +11724,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 158.75 270.51 0)
+			(at 80.01 273.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12212,6 +12709,79 @@
 			(project "modern-keyboard"
 				(path "/cb32b2da-a60d-4ed4-a57b-2c397f553171/f7d769d0-af01-4616-8268-78b90e40accc"
 					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-choc:choc_SK6812MINI-E")
+		(at 189.23 292.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ecafa946-298c-407a-b799-1b7e7c1e3060")
+		(property "Reference" "LED39"
+			(at 200.152 296.164 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "choc_SK6812MINI-E"
+			(at 200.152 298.704 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-choc:LED_choc_6028R"
+			(at 189.23 292.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 189.23 292.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Reverse mount adressable LED (WS2812 protocol)"
+			(at 189.23 292.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "7df6887b-d48c-408d-88ec-23ca64d536cf")
+		)
+		(pin "2"
+			(uuid "15d9379e-d943-4595-8059-27ca73e24298")
+		)
+		(pin "4"
+			(uuid "88239fc2-7629-4f43-bb2c-9c37ccdc0d89")
+		)
+		(pin "1"
+			(uuid "b6076c17-44f0-43d9-8a6f-b43f672d42ed")
+		)
+		(instances
+			(project "hermod-left"
+				(path "/cb32b2da-a60d-4ed4-a57b-2c397f553171/f7d769d0-af01-4616-8268-78b90e40accc"
+					(reference "LED39")
 					(unit 1)
 				)
 			)

@@ -11320,7 +11320,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5a6fb3e1-0a6f-4a27-8f70-2bcbc1dd6e00")
-		(property "Reference" "C40"
+		(property "Reference" "C56"
 			(at 179.451 138.5316 0)
 			(effects
 				(font
@@ -11392,7 +11392,7 @@
 		(instances
 			(project "hermod-left"
 				(path "/cb32b2da-a60d-4ed4-a57b-2c397f553171"
-					(reference "C40")
+					(reference "C56")
 					(unit 1)
 				)
 			)
@@ -12363,7 +12363,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "774d4888-2f4c-4cce-9f46-f7d0252d0813")
-		(property "Reference" "C39"
+		(property "Reference" "C55"
 			(at 112.141 220.8784 0)
 			(effects
 				(font
@@ -12435,7 +12435,7 @@
 		(instances
 			(project "hermod-left"
 				(path "/cb32b2da-a60d-4ed4-a57b-2c397f553171"
-					(reference "C39")
+					(reference "C55")
 					(unit 1)
 				)
 			)
