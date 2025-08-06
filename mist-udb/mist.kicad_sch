@@ -5077,7 +5077,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 45.72) (xy 140.97 45.72)
+			(xy 138.43 38.1) (xy 140.97 38.1)
 		)
 		(stroke
 			(width 0)
@@ -5667,7 +5667,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 38.1) (xy 140.97 38.1)
+			(xy 138.43 45.72) (xy 140.97 45.72)
 		)
 		(stroke
 			(width 0)
@@ -6803,7 +6803,7 @@
 	)
 	(global_label "D-"
 		(shape bidirectional)
-		(at 140.97 43.18 180)
+		(at 140.97 40.64 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6813,7 +6813,7 @@
 		)
 		(uuid "4793caa9-ed2b-4ba9-acd6-c68430b8da79")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 137.8167 43.1324 0)
+			(at 137.8167 40.6876 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -7563,7 +7563,7 @@
 	)
 	(global_label "D+"
 		(shape bidirectional)
-		(at 140.97 40.64 180)
+		(at 140.97 43.18 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7573,7 +7573,7 @@
 		)
 		(uuid "a727b447-7060-4fda-a2cc-f2e6e5e4972f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 137.8167 40.5924 0)
+			(at 137.8167 43.2276 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -8434,8 +8434,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 138.43 45.72 0)
-		(mirror x)
+		(at 138.43 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8453,7 +8452,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 138.43 50.8 0)
+			(at 138.43 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8461,7 +8460,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 138.43 45.72 0)
+			(at 138.43 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8470,7 +8469,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 138.43 45.72 0)
+			(at 138.43 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8479,7 +8478,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 138.43 45.72 0)
+			(at 138.43 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9917,8 +9916,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 138.43 38.1 0)
-		(mirror x)
+		(at 138.43 45.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9926,7 +9924,7 @@
 		(dnp no)
 		(uuid "5d144b40-7cfd-4912-861e-0b9772b4d652")
 		(property "Reference" "#PWR02"
-			(at 138.43 31.75 0)
+			(at 138.43 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9935,7 +9933,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 138.43 34.925 90)
+			(at 138.43 48.895 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9944,7 +9942,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 138.43 38.1 0)
+			(at 138.43 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9953,7 +9951,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 138.43 38.1 0)
+			(at 138.43 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9962,7 +9960,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 138.43 38.1 0)
+			(at 138.43 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
