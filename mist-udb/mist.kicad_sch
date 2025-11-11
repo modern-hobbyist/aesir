@@ -4902,10 +4902,6 @@
 		(uuid "82229ab8-0d7a-41a4-be10-df5c5e2f2726")
 	)
 	(no_connect
-		(at 77.47 99.06)
-		(uuid "989e1085-dbbb-4657-bb0a-bbac0af3f4c3")
-	)
-	(no_connect
 		(at 26.67 76.2)
 		(uuid "a25b073c-7bff-41f0-9f65-4421c81ccffd")
 	)

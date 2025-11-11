@@ -1,26 +1,11 @@
-# Hermod Mk. II
+# Modern LCD Keyboard Template
 
 > **Note:** This PCB is untested. I made updates to this design to address issues I had with the previous version, but I haven't ordered boards, nor have I written the matching firmware for it.
 
-Hermod Mk. II is a redesign of my original Hermod split keyboard, which in turn was my second keyboard design ever! Some issues that were resolved in this version include:
-- Better Pin choices for PWM Channels, Mk. I had some issues with timers overlapping
-- Added a handedness pin 
-  - Allows me to avoid using flash to store handedness
-- Switched to Full Duplex split comms
-  - Mk.I was missing a 5.1kΩ resistor on the split serial line and this switched fixes that.
-- Switched to `STM32G474CETx` from the `STM32F072CBT6`
-  - More Ram, more flash, more fun. Didn't have enough ram for fun graphics on the LCD
-- Added PWM Backlight control for the LCD Display 
+This is a starter template for a Keyboard PCB to help you get started quickly with the right footprints and supplemental components to get it done right.
 
 ## Features
-
-- **Split Design**: Ergonomic split layout for improved typing comfort.
-- **Detachable Numpad**: Magnetically detachable and reversible numpad that can connect to either half.
-- **Dual LCD Displays**: Each half features a 2.2" LCD for customizable graphics and real-time information.
-- **QMK Firmware**: Fully programmable and customizable using QMK.
-- **Per-Key RGB Lighting**: Vibrant, individually addressable RGB LEDs for endless customization.
-- **Hot-Swappable Switch Sockets**: Easily swap out switches without soldering.
-- **Open Source Hardware**: Schematics and design files available for personal customization.
+- TBD
 
 ## Specifications
 
