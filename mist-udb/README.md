@@ -1,12 +1,13 @@
 # Mist
 
-> **Note:** This PCB is untested. I am working on getting an order together, but until I can verify it functions as expected, use at your own risk.
-
-**Mist** is my take on a full size keyboard, but with some upgrades I carried over from my second keyboard build--**Hermod**. Furthermore, this is the UDB version of **Mist**, which stands for Unified Daughter Board
+**Mist** is my take on a full size keyboard, but with some upgrades I carried over from my second keyboard build--**[Hermod](https://github.com/modern-hobbyist/aesir/tree/main/hermod-mk2)**. Furthermore, this is the UDB version of **Mist**, which stands for Unified Daughter Board
 
 Aside from the UDB connector and the lack of USB-C/on-board ESD protection circuitry, this keyboard is functionally identical to the base **Mist** keyboard.
 
+This project is open source, so I'll do my best to keep it updated as questions come in. I can't guarantee I'll always have time to respond, but if you have questions you can reach out on [my Discord server](https://discord.gg/68WXGsjqJp) or on the [Keyboard Atelier Discord](https://discord.gg/b7vwhHS).
+
 ## Why?
+
 1. First of all, I've addicted to designing custom keyboards now, so jot that down.
 2. I have two children now, and while I love my split keyboard, typing with one hand is 100 times more difficult and time consuming on a split.
 3. Related to above, I wanted a keyboard that would appeal to the non-split community, but also incorporated all the features I loved mose about my split build.
