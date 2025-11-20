@@ -10,7 +10,7 @@ This project is open source, so I'll do my best to keep it updated as questions 
 
 ## Why?
 
-1. First of all, I've addicted to designing custom keyboards now, so jot that down.
+1. First of all, I'm addicted to designing custom keyboards now, so jot that down.
 2. I have two children now, and while I love my split keyboard, typing with one hand is 100 times more difficult and time consuming on a split.
 3. Related to above, I wanted a keyboard that would appeal to the non-split community, but also incorporated all the features I loved mose about my split build.
 
