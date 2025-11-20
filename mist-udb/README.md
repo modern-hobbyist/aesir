@@ -36,6 +36,7 @@ This project is open source, so I'll do my best to keep it updated as questions 
 - [Digikey Parts LIst](https://www.digikey.com/en/mylists/list/XUNNWUFIT7)
 - [ILI9341 LCD](https://www.aliexpress.us/item/2255800032844649.html?spm=a2g0o.order_list.order_list_main.107.32781802UqhhF2&gatewayAdapt=glo2usa)
 - [PCBWay Project](https://www.pcbway.com/project/shareproject/Custom_Mechanical_Keyboard_7a40c23a.html)
+  - > Note: If you are ordering assembled PCBs from the PCBWay Project, it may take a few cycles to smooth out any BOM hiccups.
 - [Unified Daughter Board](https://cannonkeys.com/products/unified-daughterboard-and-jst-cable?variant=41613867843695)
 - [Hotswap Sockets I used](https://www.aliexpress.us/item/3256807081236706.html?spm=a2g0o.order_list.order_list_main.5.32781802UqhhF2&gatewayAdapt=glo2usa)
 - [Keycaps I used](https://www.aliexpress.us/item/3256805029855838.html?spm=a2g0o.order_list.order_list_main.16.32781802UqhhF2&gatewayAdapt=glo2usa)
