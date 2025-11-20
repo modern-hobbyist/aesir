@@ -42,7 +42,8 @@ This project is open source, so I'll do my best to keep it updated as questions 
 - [Unified Daughter Board](https://cannonkeys.com/products/unified-daughterboard-and-jst-cable?variant=41613867843695)
 - [Hotswap Sockets I used](https://www.aliexpress.us/item/3256807081236706.html?spm=a2g0o.order_list.order_list_main.5.32781802UqhhF2&gatewayAdapt=glo2usa)
 - [Keycaps I used](https://www.aliexpress.us/item/3256805029855838.html?spm=a2g0o.order_list.order_list_main.16.32781802UqhhF2&gatewayAdapt=glo2usa)
-- [Switches of Choice](https://www.gateron.com/products/gateron-ks-3x1-full-milky-switch-feature?VariantsId=10405)
+- [Switches of Choice](https://a.co/d/3fji9Gi)
+- [Stabilizers of CHoice](https://a.co/d/hJjX7h8)
 
 ### Hardware
 
