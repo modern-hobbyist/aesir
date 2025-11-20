@@ -31,6 +31,8 @@ This project is open source, so I'll do my best to keep it updated as questions 
 - **Lighting**: SK6812 Mini RGB LEDs.
 
 ## BOM
+> Note: I have not finished building a KS-33 version of this keyboard. However, the only difference is the hotswap sockets you use (and the corresponding switches/keycaps). Also, there shouldn't be any issue using the existing case design with the KS-33 version.
+
 ### Electronics
 
 - [Digikey Parts LIst](https://www.digikey.com/en/mylists/list/XUNNWUFIT7)
