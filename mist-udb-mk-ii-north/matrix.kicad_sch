@@ -1,14 +1,18 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "d98019aa-1e70-4f16-8813-267b76fb8353")
 	(paper "A3")
 	(lib_symbols
 		(symbol "Device:D"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -106,10 +110,10 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 0) (xy -1.27 0)
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
 					)
 					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -118,10 +122,10 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+						(xy 1.27 0) (xy -1.27 0)
 					)
 					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -167,11 +171,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "PCM_marbastlib-gateron_lp:KS33_SW_HS_KS-2P02B01-02"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -229,6 +238,18 @@
 				)
 			)
 			(symbol "KS33_SW_HS_KS-2P02B01-02_0_1"
+				(polyline
+					(pts
+						(xy -2.54 2.54) (xy -1.524 1.524) (xy -1.524 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(circle
 					(center -1.1684 1.1684)
 					(radius 0.508)
@@ -264,10 +285,9 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy -2.54 2.54) (xy -1.524 1.524) (xy -1.524 1.524)
-					)
+				(circle
+					(center 1.143 -1.1938)
+					(radius 0.508)
 					(stroke
 						(width 0)
 						(type default)
@@ -280,17 +300,6 @@
 					(pts
 						(xy 1.524 -1.524) (xy 2.54 -2.54) (xy 2.54 -2.54) (xy 2.54 -2.54)
 					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.143 -1.1938)
-					(radius 0.508)
 					(stroke
 						(width 0)
 						(type default)
@@ -336,6 +345,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "PCM_marbastlib-mx:MX_stab"
 			(pin_names
@@ -400,7 +410,7 @@
 			)
 			(symbol "MX_stab_0_1"
 				(rectangle
-					(start -5.08 -1.524)
+					(start -5.08 1.27)
 					(end -2.54 -2.54)
 					(stroke
 						(width 0)
@@ -411,7 +421,7 @@
 					)
 				)
 				(rectangle
-					(start -5.08 1.27)
+					(start -5.08 -1.524)
 					(end -2.54 -2.54)
 					(stroke
 						(width 0)
@@ -433,8 +443,8 @@
 					)
 				)
 				(rectangle
-					(start -4.064 -2.286)
-					(end -3.556 -1.016)
+					(start -4.064 1.27)
+					(end -3.556 2.794)
 					(stroke
 						(width 0)
 						(type default)
@@ -455,19 +465,8 @@
 					)
 				)
 				(rectangle
-					(start -4.064 1.27)
-					(end -3.556 2.794)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 2.54 -1.524)
-					(end 5.08 -2.54)
+					(start -4.064 -2.286)
+					(end -3.556 -1.016)
 					(stroke
 						(width 0)
 						(type default)
@@ -478,6 +477,17 @@
 				)
 				(rectangle
 					(start 2.54 1.27)
+					(end 5.08 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.54 -1.524)
 					(end 5.08 -2.54)
 					(stroke
 						(width 0)
@@ -521,6 +531,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 	)
 	(junction
@@ -4239,7 +4250,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "001aa340-1b12-4470-83f6-b259a55806a9")
-		(property "Reference" "D92"
+		(property "Reference" "D90"
 			(at 325.12 182.8799 90)
 			(effects
 				(font
@@ -4311,7 +4322,7 @@
 		(instances
 			(project "mist"
 				(path "/cb32b2da-a60d-4ed4-a57b-2c397f553171/d515a0f5-02b9-43be-9c9a-ca0ce99df960"
-					(reference "D92")
+					(reference "D90")
 					(unit 1)
 				)
 			)
@@ -4483,7 +4494,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "02aa11bb-be87-4f0c-bfcf-7a0f0ddd22c0")
-		(property "Reference" "S4"
+		(property "Reference" "S3"
 			(at 394.97 153.5429 0)
 			(effects
 				(font
@@ -4531,7 +4542,7 @@
 		(instances
 			(project "mist"
 				(path "/cb32b2da-a60d-4ed4-a57b-2c397f553171/d515a0f5-02b9-43be-9c9a-ca0ce99df960"
-					(reference "S4")
+					(reference "S3")
 					(unit 1)
 				)
 			)
@@ -4615,7 +4626,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0543ff40-5fb5-40b8-9a98-54e586d83e74")
-		(property "Reference" "D69"
+		(property "Reference" "D67"
 			(at 149.86 160.0199 90)
 			(effects
 				(font
@@ -4687,7 +4698,7 @@
 		(instances
 			(project "mist"
 				(path "/cb32b2da-a60d-4ed4-a57b-2c397f553171/d515a0f5-02b9-43be-9c9a-ca0ce99df960"
-					(reference "D69")
+					(reference "D67")
 					(unit 1)
 				)
 			)
@@ -4839,7 +4850,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "089d24b8-eedf-4c45-bf73-7a5b66ee8c32")
-		(property "Reference" "D98"
+		(property "Reference" "D96"
 			(at 219.71 207.0099 90)
 			(effects
 				(font
@@ -4911,7 +4922,7 @@
 		(instances
 			(project "mist"
 				(path "/cb32b2da-a60d-4ed4-a57b-2c397f553171/d515a0f5-02b9-43be-9c9a-ca0ce99df960"
-					(reference "D98")
+					(reference "D96")
 					(unit 1)
 				)
 			)
@@ -4995,7 +5006,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "09baf210-1c16-4afe-9052-b712424f1f8c")
-		(property "Reference" "D83"
+		(property "Reference" "D81"
 			(at 114.3 182.8799 90)
 			(effects
 				(font
@@ -5067,7 +5078,7 @@
 		(instances
 			(project "hermod-left"
 				(path "/cb32b2da-a60d-4ed4-a57b-2c397f553171/d515a0f5-02b9-43be-9c9a-ca0ce99df960"
-					(reference "D83")
+					(reference "D81")
 					(unit 1)
 				)
 			)
@@ -5423,7 +5434,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "10a43516-017b-47d4-a4ad-86ca2032273c")
-		(property "Reference" "D54"
+		(property "Reference" "D52"
 			(at 167.64 138.4299 90)
 			(effects
 				(font
@@ -5495,7 +5506,7 @@
 		(instances
 			(project "hermod-left"
 				(path "/cb32b2da-a60d-4ed4-a57b-2c397f553171/d515a0f5-02b9-43be-9c9a-ca0ce99df960"
-					(reference "D54")
+					(reference "D52")
 					(unit 1)
 				)
 			)
@@ -5511,7 +5522,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1163666a-1703-4623-bbc3-eb71e8e9bb55")
-		(property "Reference" "D57"
+		(property "Reference" "D55"
 			(at 219.71 138.4299 90)
 			(effects
 				(font
@@ -5583,7 +5594,7 @@
 		(instances
 			(project "mist"
 				(path "/cb32b2da-a60d-4ed4-a57b-2c397f553171/d515a0f5-02b9-43be-9c9a-ca0ce99df960"
-					(reference "D57")
+					(reference "D55")
 					(unit 1)
 				)
 			)
@@ -5599,7 +5610,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "11790582-6653-4f3d-9ca2-768d9408fd8e")
-		(property "Reference" "D68"
+		(property "Reference" "D66"
 			(at 132.08 160.0199 90)
 			(effects
 				(font
@@ -5671,7 +5682,7 @@
 		(instances
 			(project "mist"
 				(path "/cb32b2da-a60d-4ed4-a57b-2c397f553171/d515a0f5-02b9-43be-9c9a-ca0ce99df960"
-					(reference "D68")
+					(reference "D66")
 					(unit 1)
 				)
 			)
@@ -5843,7 +5854,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "11bef0a2-abc0-4278-afb7-e9de514b71a8")
-		(property "Reference" "D52"
+		(property "Reference" "D50"
 			(at 132.08 138.4299 90)
 			(effects
 				(font
@@ -5915,7 +5926,7 @@
 		(instances
 			(project "hermod-left"
 				(path "/cb32b2da-a60d-4ed4-a57b-2c397f553171/d515a0f5-02b9-43be-9c9a-ca0ce99df960"
-					(reference "D52")
+					(reference "D50")
 					(unit 1)
 				)
 			)
@@ -6291,7 +6302,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1c36c149-b96d-434c-9a84-5db8b8bd6fc9")
-		(property "Reference" "D42"
+		(property "Reference" "D40"
 			(at 273.05 116.8399 90)
 			(effects
 				(font
@@ -6363,7 +6374,7 @@
 		(instances
 			(project "mist"
 				(path "/cb32b2da-a60d-4ed4-a57b-2c397f553171/d515a0f5-02b9-43be-9c9a-ca0ce99df960"
-					(reference "D42")
+					(reference "D40")
 					(unit 1)
 				)
 			)
@@ -6447,7 +6458,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1d378f32-b8b6-46b4-ab04-300b76d7b0bb")
-		(property "Reference" "S5"
+		(property "Reference" "S6"
 			(at 396.24 196.7229 0)
 			(effects
 				(font
@@ -6495,7 +6506,7 @@
 		(instances
 			(project "mist"
 				(path "/cb32b2da-a60d-4ed4-a57b-2c397f553171/d515a0f5-02b9-43be-9c9a-ca0ce99df960"
-					(reference "S5")
+					(reference "S6")
 					(unit 1)
 				)
 			)
@@ -6511,7 +6522,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1de4cef8-52d4-4978-a35b-471ff524000a")
-		(property "Reference" "D79"
+		(property "Reference" "D77"
 			(at 360.68 160.0199 90)
 			(effects
 				(font
@@ -6583,7 +6594,7 @@
 		(instances
 			(project "mist"
 				(path "/cb32b2da-a60d-4ed4-a57b-2c397f553171/d515a0f5-02b9-43be-9c9a-ca0ce99df960"
-					(reference "D79")
+					(reference "D77")
 					(unit 1)
 				)
 			)
@@ -6687,7 +6698,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "201c8da1-1bc4-49e3-9803-9720cc137c77")
-		(property "Reference" "D67"
+		(property "Reference" "D65"
 			(at 114.3 160.0199 90)
 			(effects
 				(font
@@ -6759,7 +6770,7 @@
 		(instances
 			(project "mist"
 				(path "/cb32b2da-a60d-4ed4-a57b-2c397f553171/d515a0f5-02b9-43be-9c9a-ca0ce99df960"
-					(reference "D67")
+					(reference "D65")
 					(unit 1)
 				)
 			)
@@ -6843,7 +6854,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "247da77b-0707-40c1-be23-6f3b195626d1")
-		(property "Reference" "D73"
+		(property "Reference" "D71"
 			(at 219.71 160.0199 90)
 			(effects
 				(font
@@ -6915,7 +6926,7 @@
 		(instances
 			(project "mist"
 				(path "/cb32b2da-a60d-4ed4-a57b-2c397f553171/d515a0f5-02b9-43be-9c9a-ca0ce99df960"
-					(reference "D73")
+					(reference "D71")
 					(unit 1)
 				)
 			)
@@ -7019,7 +7030,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "25f49455-792f-4611-b62c-d698555babc6")
-		(property "Reference" "D46"
+		(property "Reference" "D44"
 			(at 342.9 116.8399 90)
 			(effects
 				(font
@@ -7091,7 +7102,7 @@
 		(instances
 			(project "mist"
 				(path "/cb32b2da-a60d-4ed4-a57b-2c397f553171/d515a0f5-02b9-43be-9c9a-ca0ce99df960"
-					(reference "D46")
+					(reference "D44")
 					(unit 1)
 				)
 			)
@@ -7107,7 +7118,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "26260111-e4c0-4cb5-aa7e-e9c76fe30e1f")
-		(property "Reference" "D82"
+		(property "Reference" "D80"
 			(at 96.52 182.8799 90)
 			(effects
 				(font
@@ -7179,7 +7190,7 @@
 		(instances
 			(project "hermod-left"
 				(path "/cb32b2da-a60d-4ed4-a57b-2c397f553171/d515a0f5-02b9-43be-9c9a-ca0ce99df960"
-					(reference "D82")
+					(reference "D80")
 					(unit 1)
 				)
 			)
@@ -7195,7 +7206,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "263c8616-8805-495d-bbcc-59f4110c9d0c")
-		(property "Reference" "D104"
+		(property "Reference" "D102"
 			(at 360.68 207.0099 90)
 			(effects
 				(font
@@ -7267,7 +7278,7 @@
 		(instances
 			(project "mist"
 				(path "/cb32b2da-a60d-4ed4-a57b-2c397f553171/d515a0f5-02b9-43be-9c9a-ca0ce99df960"
-					(reference "D104")
+					(reference "D102")
 					(unit 1)
 				)
 			)
@@ -7771,7 +7782,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2c9fe984-8e4b-46bb-b215-5e9a2ae566fd")
-		(property "Reference" "D96"
+		(property "Reference" "D94"
 			(at 96.52 207.0099 90)
 			(effects
 				(font
@@ -7843,7 +7854,7 @@
 		(instances
 			(project "mist"
 				(path "/cb32b2da-a60d-4ed4-a57b-2c397f553171/d515a0f5-02b9-43be-9c9a-ca0ce99df960"
-					(reference "D96")
+					(reference "D94")
 					(unit 1)
 				)
 			)
@@ -7995,7 +8006,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3042aeb4-6366-4643-86a1-88b7ed481b58")
-		(property "Reference" "D93"
+		(property "Reference" "D91"
 			(at 342.9 182.8799 90)
 			(effects
 				(font
@@ -8067,7 +8078,7 @@
 		(instances
 			(project "mist"
 				(path "/cb32b2da-a60d-4ed4-a57b-2c397f553171/d515a0f5-02b9-43be-9c9a-ca0ce99df960"
-					(reference "D93")
+					(reference "D91")
 					(unit 1)
 				)
 			)
@@ -8151,7 +8162,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3363baee-0d88-4076-9164-c743ff468542")
-		(property "Reference" "D64"
+		(property "Reference" "D62"
 			(at 360.68 138.4299 90)
 			(effects
 				(font
@@ -8223,7 +8234,7 @@
 		(instances
 			(project "mist"
 				(path "/cb32b2da-a60d-4ed4-a57b-2c397f553171/d515a0f5-02b9-43be-9c9a-ca0ce99df960"
-					(reference "D64")
+					(reference "D62")
 					(unit 1)
 				)
 			)
@@ -8599,7 +8610,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3a5c4f63-e820-427b-8079-d317d1ef4d7d")
-		(property "Reference" "D55"
+		(property "Reference" "D53"
 			(at 185.42 138.4299 90)
 			(effects
 				(font
@@ -8671,7 +8682,7 @@
 		(instances
 			(project "hermod-left"
 				(path "/cb32b2da-a60d-4ed4-a57b-2c397f553171/d515a0f5-02b9-43be-9c9a-ca0ce99df960"
-					(reference "D55")
+					(reference "D53")
 					(unit 1)
 				)
 			)
@@ -8687,7 +8698,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3c7e8f7f-c85f-499e-bfd3-e8ec7a6d09bc")
-		(property "Reference" "D100"
+		(property "Reference" "D98"
 			(at 255.27 207.0099 90)
 			(effects
 				(font
@@ -8759,7 +8770,7 @@
 		(instances
 			(project "mist"
 				(path "/cb32b2da-a60d-4ed4-a57b-2c397f553171/d515a0f5-02b9-43be-9c9a-ca0ce99df960"
-					(reference "D100")
+					(reference "D98")
 					(unit 1)
 				)
 			)
@@ -8999,7 +9010,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3fe7a5f9-8168-405b-a25d-060488dd4897")
-		(property "Reference" "S3"
+		(property "Reference" "S2"
 			(at 302.26 149.7329 0)
 			(effects
 				(font
@@ -9047,7 +9058,7 @@
 		(instances
 			(project "mist"
 				(path "/cb32b2da-a60d-4ed4-a57b-2c397f553171/d515a0f5-02b9-43be-9c9a-ca0ce99df960"
-					(reference "S3")
+					(reference "S2")
 					(unit 1)
 				)
 			)
@@ -9063,7 +9074,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4283bb00-eff3-4262-b283-9ef86292af9a")
-		(property "Reference" "D81"
+		(property "Reference" "D79"
 			(at 78.74 182.8799 90)
 			(effects
 				(font
@@ -9135,7 +9146,7 @@
 		(instances
 			(project "hermod-left"
 				(path "/cb32b2da-a60d-4ed4-a57b-2c397f553171/d515a0f5-02b9-43be-9c9a-ca0ce99df960"
-					(reference "D81")
+					(reference "D79")
 					(unit 1)
 				)
 			)
@@ -9443,7 +9454,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "465c02bd-0f98-4609-8e7e-377f923b47b4")
-		(property "Reference" "D43"
+		(property "Reference" "D41"
 			(at 290.83 116.8399 90)
 			(effects
 				(font
@@ -9515,7 +9526,7 @@
 		(instances
 			(project "mist"
 				(path "/cb32b2da-a60d-4ed4-a57b-2c397f553171/d515a0f5-02b9-43be-9c9a-ca0ce99df960"
-					(reference "D43")
+					(reference "D41")
 					(unit 1)
 				)
 			)
@@ -9531,7 +9542,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "46dca0e3-0b4c-4f29-809c-d915be90f196")
-		(property "Reference" "D77"
+		(property "Reference" "D75"
 			(at 325.12 160.0199 90)
 			(effects
 				(font
@@ -9603,7 +9614,7 @@
 		(instances
 			(project "mist"
 				(path "/cb32b2da-a60d-4ed4-a57b-2c397f553171/d515a0f5-02b9-43be-9c9a-ca0ce99df960"
-					(reference "D77")
+					(reference "D75")
 					(unit 1)
 				)
 			)
@@ -10135,7 +10146,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5267eb0e-f57a-426c-8020-da5bf02d6a93")
-		(property "Reference" "D44"
+		(property "Reference" "D42"
 			(at 308.61 116.8399 90)
 			(effects
 				(font
@@ -10207,7 +10218,7 @@
 		(instances
 			(project "mist"
 				(path "/cb32b2da-a60d-4ed4-a57b-2c397f553171/d515a0f5-02b9-43be-9c9a-ca0ce99df960"
-					(reference "D44")
+					(reference "D42")
 					(unit 1)
 				)
 			)
@@ -10291,7 +10302,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "54c01b01-b558-4a69-b8d3-ccaa2b1a063e")
-		(property "Reference" "D87"
+		(property "Reference" "D85"
 			(at 185.42 182.8799 90)
 			(effects
 				(font
@@ -10363,7 +10374,7 @@
 		(instances
 			(project "hermod-left"
 				(path "/cb32b2da-a60d-4ed4-a57b-2c397f553171/d515a0f5-02b9-43be-9c9a-ca0ce99df960"
-					(reference "D87")
+					(reference "D85")
 					(unit 1)
 				)
 			)
@@ -10379,7 +10390,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5550713d-8088-4fda-8b9f-05f24b18c37a")
-		(property "Reference" "S6"
+		(property "Reference" "S7"
 			(at 339.09 200.5329 0)
 			(effects
 				(font
@@ -10427,7 +10438,7 @@
 		(instances
 			(project "mist"
 				(path "/cb32b2da-a60d-4ed4-a57b-2c397f553171/d515a0f5-02b9-43be-9c9a-ca0ce99df960"
-					(reference "S6")
+					(reference "S7")
 					(unit 1)
 				)
 			)
@@ -10579,7 +10590,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "568bc88d-4c01-463f-bff0-80f8d5eb8b01")
-		(property "Reference" "D62"
+		(property "Reference" "D60"
 			(at 325.12 138.4299 90)
 			(effects
 				(font
@@ -10651,7 +10662,7 @@
 		(instances
 			(project "mist"
 				(path "/cb32b2da-a60d-4ed4-a57b-2c397f553171/d515a0f5-02b9-43be-9c9a-ca0ce99df960"
-					(reference "D62")
+					(reference "D60")
 					(unit 1)
 				)
 			)
@@ -11231,7 +11242,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5f3093a4-e5dd-416c-b10c-36a668e651a6")
-		(property "Reference" "D78"
+		(property "Reference" "D76"
 			(at 342.9 160.0199 90)
 			(effects
 				(font
@@ -11303,7 +11314,7 @@
 		(instances
 			(project "mist"
 				(path "/cb32b2da-a60d-4ed4-a57b-2c397f553171/d515a0f5-02b9-43be-9c9a-ca0ce99df960"
-					(reference "D78")
+					(reference "D76")
 					(unit 1)
 				)
 			)
@@ -11543,7 +11554,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6320ab22-c986-40b9-a1ce-ed9bb60409ef")
-		(property "Reference" "D80"
+		(property "Reference" "D78"
 			(at 378.46 160.0199 90)
 			(effects
 				(font
@@ -11615,7 +11626,7 @@
 		(instances
 			(project "mist"
 				(path "/cb32b2da-a60d-4ed4-a57b-2c397f553171/d515a0f5-02b9-43be-9c9a-ca0ce99df960"
-					(reference "D80")
+					(reference "D78")
 					(unit 1)
 				)
 			)
@@ -11631,7 +11642,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "655bb0b5-70c4-4506-a4b4-b3d5993a6ffc")
-		(property "Reference" "D60"
+		(property "Reference" "D58"
 			(at 273.05 138.4299 90)
 			(effects
 				(font
@@ -11703,7 +11714,7 @@
 		(instances
 			(project "mist"
 				(path "/cb32b2da-a60d-4ed4-a57b-2c397f553171/d515a0f5-02b9-43be-9c9a-ca0ce99df960"
-					(reference "D60")
+					(reference "D58")
 					(unit 1)
 				)
 			)
@@ -11719,7 +11730,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "65f04c8c-bdca-4826-9983-4b05620d42bf")
-		(property "Reference" "D70"
+		(property "Reference" "D68"
 			(at 167.64 160.0199 90)
 			(effects
 				(font
@@ -11791,7 +11802,7 @@
 		(instances
 			(project "mist"
 				(path "/cb32b2da-a60d-4ed4-a57b-2c397f553171/d515a0f5-02b9-43be-9c9a-ca0ce99df960"
-					(reference "D70")
+					(reference "D68")
 					(unit 1)
 				)
 			)
@@ -11807,7 +11818,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "68bd3841-1135-4757-b1c4-f99d9a17a5c5")
-		(property "Reference" "D75"
+		(property "Reference" "D73"
 			(at 255.27 160.0199 90)
 			(effects
 				(font
@@ -11879,7 +11890,7 @@
 		(instances
 			(project "mist"
 				(path "/cb32b2da-a60d-4ed4-a57b-2c397f553171/d515a0f5-02b9-43be-9c9a-ca0ce99df960"
-					(reference "D75")
+					(reference "D73")
 					(unit 1)
 				)
 			)
@@ -11895,7 +11906,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6ad90b42-0014-484e-98a3-addba43d14c1")
-		(property "Reference" "D49"
+		(property "Reference" "D47"
 			(at 78.74 138.4299 90)
 			(effects
 				(font
@@ -11967,7 +11978,7 @@
 		(instances
 			(project "hermod-left"
 				(path "/cb32b2da-a60d-4ed4-a57b-2c397f553171/d515a0f5-02b9-43be-9c9a-ca0ce99df960"
-					(reference "D49")
+					(reference "D47")
 					(unit 1)
 				)
 			)
@@ -11983,7 +11994,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6b5d7c46-6d36-4457-b70f-dc9d7fa24ed6")
-		(property "Reference" "S1"
+		(property "Reference" "S4"
 			(at 63.5 177.6729 0)
 			(effects
 				(font
@@ -12031,7 +12042,7 @@
 		(instances
 			(project ""
 				(path "/cb32b2da-a60d-4ed4-a57b-2c397f553171/d515a0f5-02b9-43be-9c9a-ca0ce99df960"
-					(reference "S1")
+					(reference "S4")
 					(unit 1)
 				)
 			)
@@ -12203,7 +12214,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6d642127-f75e-41c7-b407-f99fcdc67f75")
-		(property "Reference" "D74"
+		(property "Reference" "D72"
 			(at 237.49 160.0199 90)
 			(effects
 				(font
@@ -12275,7 +12286,7 @@
 		(instances
 			(project "mist"
 				(path "/cb32b2da-a60d-4ed4-a57b-2c397f553171/d515a0f5-02b9-43be-9c9a-ca0ce99df960"
-					(reference "D74")
+					(reference "D72")
 					(unit 1)
 				)
 			)
@@ -12787,7 +12798,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "762475c1-e829-443f-9e40-e4e99cecb3aa")
-		(property "Reference" "D95"
+		(property "Reference" "D93"
 			(at 78.74 207.0099 90)
 			(effects
 				(font
@@ -12859,7 +12870,7 @@
 		(instances
 			(project "mist"
 				(path "/cb32b2da-a60d-4ed4-a57b-2c397f553171/d515a0f5-02b9-43be-9c9a-ca0ce99df960"
-					(reference "D95")
+					(reference "D93")
 					(unit 1)
 				)
 			)
@@ -13031,7 +13042,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7c640c9e-b188-4905-a084-27996bfee21b")
-		(property "Reference" "D85"
+		(property "Reference" "D83"
 			(at 149.86 182.8799 90)
 			(effects
 				(font
@@ -13103,7 +13114,7 @@
 		(instances
 			(project "hermod-left"
 				(path "/cb32b2da-a60d-4ed4-a57b-2c397f553171/d515a0f5-02b9-43be-9c9a-ca0ce99df960"
-					(reference "D85")
+					(reference "D83")
 					(unit 1)
 				)
 			)
@@ -13275,7 +13286,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "872a2c22-2718-4cec-b04c-7871d1807e4e")
-		(property "Reference" "D99"
+		(property "Reference" "D97"
 			(at 237.49 207.0099 90)
 			(effects
 				(font
@@ -13347,7 +13358,7 @@
 		(instances
 			(project "mist"
 				(path "/cb32b2da-a60d-4ed4-a57b-2c397f553171/d515a0f5-02b9-43be-9c9a-ca0ce99df960"
-					(reference "D99")
+					(reference "D97")
 					(unit 1)
 				)
 			)
@@ -13363,7 +13374,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "87730788-ce27-4f21-bcff-35197ce491aa")
-		(property "Reference" "D71"
+		(property "Reference" "D69"
 			(at 185.42 160.0199 90)
 			(effects
 				(font
@@ -13435,7 +13446,7 @@
 		(instances
 			(project "mist"
 				(path "/cb32b2da-a60d-4ed4-a57b-2c397f553171/d515a0f5-02b9-43be-9c9a-ca0ce99df960"
-					(reference "D71")
+					(reference "D69")
 					(unit 1)
 				)
 			)
@@ -13655,7 +13666,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8c81d253-1239-4b07-bf03-8fb83e1bcac7")
-		(property "Reference" "D66"
+		(property "Reference" "D64"
 			(at 96.52 160.0199 90)
 			(effects
 				(font
@@ -13727,7 +13738,7 @@
 		(instances
 			(project "mist"
 				(path "/cb32b2da-a60d-4ed4-a57b-2c397f553171/d515a0f5-02b9-43be-9c9a-ca0ce99df960"
-					(reference "D66")
+					(reference "D64")
 					(unit 1)
 				)
 			)
@@ -13947,7 +13958,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8ee50b64-c5ca-48eb-885e-382e9d08977e")
-		(property "Reference" "D84"
+		(property "Reference" "D82"
 			(at 132.08 182.8799 90)
 			(effects
 				(font
@@ -14019,7 +14030,7 @@
 		(instances
 			(project "hermod-left"
 				(path "/cb32b2da-a60d-4ed4-a57b-2c397f553171/d515a0f5-02b9-43be-9c9a-ca0ce99df960"
-					(reference "D84")
+					(reference "D82")
 					(unit 1)
 				)
 			)
@@ -14035,7 +14046,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8f7fb008-5a02-4509-b212-f60f4b09dd26")
-		(property "Reference" "D86"
+		(property "Reference" "D84"
 			(at 167.64 182.8799 90)
 			(effects
 				(font
@@ -14107,7 +14118,7 @@
 		(instances
 			(project "hermod-left"
 				(path "/cb32b2da-a60d-4ed4-a57b-2c397f553171/d515a0f5-02b9-43be-9c9a-ca0ce99df960"
-					(reference "D86")
+					(reference "D84")
 					(unit 1)
 				)
 			)
@@ -14299,7 +14310,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "93b17c53-31be-4c20-a614-079c579633c4")
-		(property "Reference" "D103"
+		(property "Reference" "D101"
 			(at 325.12 207.0099 90)
 			(effects
 				(font
@@ -14371,7 +14382,7 @@
 		(instances
 			(project "mist"
 				(path "/cb32b2da-a60d-4ed4-a57b-2c397f553171/d515a0f5-02b9-43be-9c9a-ca0ce99df960"
-					(reference "D103")
+					(reference "D101")
 					(unit 1)
 				)
 			)
@@ -14455,7 +14466,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "95b1340d-29f5-4265-8127-abf37b56bd89")
-		(property "Reference" "D48"
+		(property "Reference" "D46"
 			(at 378.46 116.8399 90)
 			(effects
 				(font
@@ -14527,7 +14538,7 @@
 		(instances
 			(project "mist"
 				(path "/cb32b2da-a60d-4ed4-a57b-2c397f553171/d515a0f5-02b9-43be-9c9a-ca0ce99df960"
-					(reference "D48")
+					(reference "D46")
 					(unit 1)
 				)
 			)
@@ -14679,7 +14690,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "97f46333-f3bc-4674-afcc-015baacd276e")
-		(property "Reference" "D50"
+		(property "Reference" "D48"
 			(at 96.52 138.4299 90)
 			(effects
 				(font
@@ -14751,7 +14762,7 @@
 		(instances
 			(project "hermod-left"
 				(path "/cb32b2da-a60d-4ed4-a57b-2c397f553171/d515a0f5-02b9-43be-9c9a-ca0ce99df960"
-					(reference "D50")
+					(reference "D48")
 					(unit 1)
 				)
 			)
@@ -14835,7 +14846,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "98e7baaf-acce-4c6c-8c9e-1b3c87980e05")
-		(property "Reference" "D90"
+		(property "Reference" "D88"
 			(at 273.05 182.8799 90)
 			(effects
 				(font
@@ -14907,7 +14918,7 @@
 		(instances
 			(project "mist"
 				(path "/cb32b2da-a60d-4ed4-a57b-2c397f553171/d515a0f5-02b9-43be-9c9a-ca0ce99df960"
-					(reference "D90")
+					(reference "D88")
 					(unit 1)
 				)
 			)
@@ -14991,7 +15002,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9a0b12d5-ed1e-400c-8ec0-c52d4e9e38c6")
-		(property "Reference" "D101"
+		(property "Reference" "D99"
 			(at 273.05 207.0099 90)
 			(effects
 				(font
@@ -15063,7 +15074,7 @@
 		(instances
 			(project "mist"
 				(path "/cb32b2da-a60d-4ed4-a57b-2c397f553171/d515a0f5-02b9-43be-9c9a-ca0ce99df960"
-					(reference "D101")
+					(reference "D99")
 					(unit 1)
 				)
 			)
@@ -15303,7 +15314,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9c652881-4182-46f9-ac75-62d42c10b69e")
-		(property "Reference" "D102"
+		(property "Reference" "D100"
 			(at 290.83 205.7399 90)
 			(effects
 				(font
@@ -15375,7 +15386,7 @@
 		(instances
 			(project "mist"
 				(path "/cb32b2da-a60d-4ed4-a57b-2c397f553171/d515a0f5-02b9-43be-9c9a-ca0ce99df960"
-					(reference "D102")
+					(reference "D100")
 					(unit 1)
 				)
 			)
@@ -15459,7 +15470,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9eaf73eb-09f0-4447-9d0a-082b9d7eb0a3")
-		(property "Reference" "D53"
+		(property "Reference" "D51"
 			(at 149.86 138.4299 90)
 			(effects
 				(font
@@ -15531,7 +15542,7 @@
 		(instances
 			(project "hermod-left"
 				(path "/cb32b2da-a60d-4ed4-a57b-2c397f553171/d515a0f5-02b9-43be-9c9a-ca0ce99df960"
-					(reference "D53")
+					(reference "D51")
 					(unit 1)
 				)
 			)
@@ -15547,7 +15558,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9fa5f984-280c-4d9f-b306-cdfc818c68c6")
-		(property "Reference" "D72"
+		(property "Reference" "D70"
 			(at 201.93 160.0199 90)
 			(effects
 				(font
@@ -15619,7 +15630,7 @@
 		(instances
 			(project "mist"
 				(path "/cb32b2da-a60d-4ed4-a57b-2c397f553171/d515a0f5-02b9-43be-9c9a-ca0ce99df960"
-					(reference "D72")
+					(reference "D70")
 					(unit 1)
 				)
 			)
@@ -15879,7 +15890,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a13ad42d-d1d7-4e9d-8f54-cd7be678f2aa")
-		(property "Reference" "D56"
+		(property "Reference" "D54"
 			(at 201.93 138.4299 90)
 			(effects
 				(font
@@ -15951,7 +15962,7 @@
 		(instances
 			(project "mist"
 				(path "/cb32b2da-a60d-4ed4-a57b-2c397f553171/d515a0f5-02b9-43be-9c9a-ca0ce99df960"
-					(reference "D56")
+					(reference "D54")
 					(unit 1)
 				)
 			)
@@ -16143,7 +16154,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a30732e6-cbbc-4633-b33f-9018435de9af")
-		(property "Reference" "S7"
+		(property "Reference" "S1"
 			(at 321.31 72.2629 0)
 			(effects
 				(font
@@ -16191,7 +16202,7 @@
 		(instances
 			(project "mist"
 				(path "/cb32b2da-a60d-4ed4-a57b-2c397f553171/d515a0f5-02b9-43be-9c9a-ca0ce99df960"
-					(reference "S7")
+					(reference "S1")
 					(unit 1)
 				)
 			)
@@ -16207,7 +16218,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a4d8cffb-9f6c-413d-a102-df725e78a6ca")
-		(property "Reference" "D97"
+		(property "Reference" "D95"
 			(at 114.3 207.0099 90)
 			(effects
 				(font
@@ -16279,7 +16290,7 @@
 		(instances
 			(project "mist"
 				(path "/cb32b2da-a60d-4ed4-a57b-2c397f553171/d515a0f5-02b9-43be-9c9a-ca0ce99df960"
-					(reference "D97")
+					(reference "D95")
 					(unit 1)
 				)
 			)
@@ -16471,7 +16482,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a753903d-b0b3-4797-a7ff-0fbbcd1c1f7b")
-		(property "Reference" "D45"
+		(property "Reference" "D43"
 			(at 325.12 116.8399 90)
 			(effects
 				(font
@@ -16543,7 +16554,7 @@
 		(instances
 			(project "mist"
 				(path "/cb32b2da-a60d-4ed4-a57b-2c397f553171/d515a0f5-02b9-43be-9c9a-ca0ce99df960"
-					(reference "D45")
+					(reference "D43")
 					(unit 1)
 				)
 			)
@@ -16715,7 +16726,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "acf260eb-b1f0-4e87-bf1e-d1b07b9d1e60")
-		(property "Reference" "D63"
+		(property "Reference" "D61"
 			(at 342.9 138.4299 90)
 			(effects
 				(font
@@ -16787,7 +16798,7 @@
 		(instances
 			(project "mist"
 				(path "/cb32b2da-a60d-4ed4-a57b-2c397f553171/d515a0f5-02b9-43be-9c9a-ca0ce99df960"
-					(reference "D63")
+					(reference "D61")
 					(unit 1)
 				)
 			)
@@ -17027,7 +17038,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b1b810ac-5f00-476f-997b-ec486b412f36")
-		(property "Reference" "D76"
+		(property "Reference" "D74"
 			(at 273.05 160.0199 90)
 			(effects
 				(font
@@ -17099,7 +17110,7 @@
 		(instances
 			(project "mist"
 				(path "/cb32b2da-a60d-4ed4-a57b-2c397f553171/d515a0f5-02b9-43be-9c9a-ca0ce99df960"
-					(reference "D76")
+					(reference "D74")
 					(unit 1)
 				)
 			)
@@ -17115,7 +17126,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b201c428-3112-462c-8428-eb4e72573189")
-		(property "Reference" "S2"
+		(property "Reference" "S5"
 			(at 304.8 177.6729 0)
 			(effects
 				(font
@@ -17163,7 +17174,7 @@
 		(instances
 			(project "mist"
 				(path "/cb32b2da-a60d-4ed4-a57b-2c397f553171/d515a0f5-02b9-43be-9c9a-ca0ce99df960"
-					(reference "S2")
+					(reference "S5")
 					(unit 1)
 				)
 			)
@@ -17247,7 +17258,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b26f2cf5-8d24-4e8e-93ab-2815b5b40b88")
-		(property "Reference" "D61"
+		(property "Reference" "D59"
 			(at 290.83 138.4299 90)
 			(effects
 				(font
@@ -17319,7 +17330,7 @@
 		(instances
 			(project "mist"
 				(path "/cb32b2da-a60d-4ed4-a57b-2c397f553171/d515a0f5-02b9-43be-9c9a-ca0ce99df960"
-					(reference "D61")
+					(reference "D59")
 					(unit 1)
 				)
 			)
@@ -17735,7 +17746,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bb11af5c-8d80-4828-92aa-458bd954022b")
-		(property "Reference" "D88"
+		(property "Reference" "D86"
 			(at 201.93 182.8799 90)
 			(effects
 				(font
@@ -17807,7 +17818,7 @@
 		(instances
 			(project "mist"
 				(path "/cb32b2da-a60d-4ed4-a57b-2c397f553171/d515a0f5-02b9-43be-9c9a-ca0ce99df960"
-					(reference "D88")
+					(reference "D86")
 					(unit 1)
 				)
 			)
@@ -18027,7 +18038,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c220adf6-2aed-419f-b2a5-f9324be12f9c")
-		(property "Reference" "D89"
+		(property "Reference" "D87"
 			(at 237.49 182.8799 90)
 			(effects
 				(font
@@ -18099,7 +18110,7 @@
 		(instances
 			(project "mist"
 				(path "/cb32b2da-a60d-4ed4-a57b-2c397f553171/d515a0f5-02b9-43be-9c9a-ca0ce99df960"
-					(reference "D89")
+					(reference "D87")
 					(unit 1)
 				)
 			)
@@ -18115,7 +18126,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "caa297a8-44a7-4b18-8f14-3a0a4752e0df")
-		(property "Reference" "D91"
+		(property "Reference" "D89"
 			(at 290.83 182.8799 90)
 			(effects
 				(font
@@ -18187,7 +18198,7 @@
 		(instances
 			(project "mist"
 				(path "/cb32b2da-a60d-4ed4-a57b-2c397f553171/d515a0f5-02b9-43be-9c9a-ca0ce99df960"
-					(reference "D91")
+					(reference "D89")
 					(unit 1)
 				)
 			)
@@ -18407,7 +18418,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cc9cd861-c0f2-4b9c-a366-39fa866e7180")
-		(property "Reference" "D65"
+		(property "Reference" "D63"
 			(at 78.74 160.0199 90)
 			(effects
 				(font
@@ -18479,7 +18490,7 @@
 		(instances
 			(project "mist"
 				(path "/cb32b2da-a60d-4ed4-a57b-2c397f553171/d515a0f5-02b9-43be-9c9a-ca0ce99df960"
-					(reference "D65")
+					(reference "D63")
 					(unit 1)
 				)
 			)
@@ -18651,7 +18662,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d4c6bfcd-d577-4420-8adf-50e6f9463b29")
-		(property "Reference" "D105"
+		(property "Reference" "D103"
 			(at 378.46 207.0099 90)
 			(effects
 				(font
@@ -18723,7 +18734,7 @@
 		(instances
 			(project "mist"
 				(path "/cb32b2da-a60d-4ed4-a57b-2c397f553171/d515a0f5-02b9-43be-9c9a-ca0ce99df960"
-					(reference "D105")
+					(reference "D103")
 					(unit 1)
 				)
 			)
@@ -18915,7 +18926,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d6ff8f18-2635-44b2-b50d-a161ccb7d62e")
-		(property "Reference" "D47"
+		(property "Reference" "D45"
 			(at 360.68 116.8399 90)
 			(effects
 				(font
@@ -18987,7 +18998,7 @@
 		(instances
 			(project "mist"
 				(path "/cb32b2da-a60d-4ed4-a57b-2c397f553171/d515a0f5-02b9-43be-9c9a-ca0ce99df960"
-					(reference "D47")
+					(reference "D45")
 					(unit 1)
 				)
 			)
@@ -19343,7 +19354,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e2fb8295-e0bb-4214-b966-a1df086d80fa")
-		(property "Reference" "D59"
+		(property "Reference" "D57"
 			(at 255.27 138.4299 90)
 			(effects
 				(font
@@ -19415,7 +19426,7 @@
 		(instances
 			(project "mist"
 				(path "/cb32b2da-a60d-4ed4-a57b-2c397f553171/d515a0f5-02b9-43be-9c9a-ca0ce99df960"
-					(reference "D59")
+					(reference "D57")
 					(unit 1)
 				)
 			)
@@ -19431,7 +19442,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e44a956d-d9e4-49b4-a7d5-4db8a3accdbe")
-		(property "Reference" "D51"
+		(property "Reference" "D49"
 			(at 114.3 138.4299 90)
 			(effects
 				(font
@@ -19503,7 +19514,7 @@
 		(instances
 			(project "hermod-left"
 				(path "/cb32b2da-a60d-4ed4-a57b-2c397f553171/d515a0f5-02b9-43be-9c9a-ca0ce99df960"
-					(reference "D51")
+					(reference "D49")
 					(unit 1)
 				)
 			)
@@ -19519,7 +19530,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e572ae25-fbb7-4e7f-92f7-6f062a7f1c04")
-		(property "Reference" "D94"
+		(property "Reference" "D92"
 			(at 360.68 182.8799 90)
 			(effects
 				(font
@@ -19591,7 +19602,7 @@
 		(instances
 			(project "mist"
 				(path "/cb32b2da-a60d-4ed4-a57b-2c397f553171/d515a0f5-02b9-43be-9c9a-ca0ce99df960"
-					(reference "D94")
+					(reference "D92")
 					(unit 1)
 				)
 			)
@@ -19675,7 +19686,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ec8e609a-8b5b-4f65-b9e2-8ab035d05376")
-		(property "Reference" "D58"
+		(property "Reference" "D56"
 			(at 237.49 138.4299 90)
 			(effects
 				(font
@@ -19747,7 +19758,7 @@
 		(instances
 			(project "mist"
 				(path "/cb32b2da-a60d-4ed4-a57b-2c397f553171/d515a0f5-02b9-43be-9c9a-ca0ce99df960"
-					(reference "D58")
+					(reference "D56")
 					(unit 1)
 				)
 			)
