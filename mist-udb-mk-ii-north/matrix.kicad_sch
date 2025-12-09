@@ -4512,7 +4512,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:STAB_MX_P_2u"
+		(property "Footprint" "ModHob:KS33_MX_STAB_COMBO"
 			(at 388.62 154.94 0)
 			(effects
 				(font
@@ -6476,7 +6476,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:STAB_MX_P_2u"
+		(property "Footprint" "ModHob:KS33_MX_STAB_COMBO"
 			(at 389.89 198.12 0)
 			(effects
 				(font
@@ -9028,7 +9028,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:STAB_MX_P_2.25u"
+		(property "Footprint" "ModHob:KS33_MX_STAB_COMBO"
 			(at 295.91 151.13 0)
 			(effects
 				(font
@@ -10408,7 +10408,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:STAB_MX_P_2u"
+		(property "Footprint" "ModHob:KS33_MX_STAB_COMBO"
 			(at 332.74 201.93 0)
 			(effects
 				(font
@@ -12012,7 +12012,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:STAB_MX_P_2.25u"
+		(property "Footprint" "ModHob:KS33_MX_STAB_COMBO"
 			(at 57.15 179.07 0)
 			(effects
 				(font
@@ -16172,7 +16172,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:STAB_MX_P_2u"
+		(property "Footprint" "ModHob:KS33_MX_STAB_COMBO"
 			(at 314.96 73.66 0)
 			(effects
 				(font
