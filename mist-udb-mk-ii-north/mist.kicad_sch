@@ -4812,6 +4812,12 @@
 		(uuid "dfbba4d0-db0e-46ee-98d2-9710ed0feb6a")
 	)
 	(junction
+		(at 336.55 170.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "005ac762-8bd7-497d-97e7-3073340c398b")
+	)
+	(junction
 		(at 262.89 175.26)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4830,10 +4836,22 @@
 		(uuid "243f8941-dca8-4c6b-9017-40338d1f8334")
 	)
 	(junction
+		(at 336.55 160.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "282055e0-f591-4751-b66a-86ff5fb6e680")
+	)
+	(junction
 		(at 336.55 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "294e5062-7ff9-44dd-9277-c01a3c788724")
+	)
+	(junction
+		(at 336.55 176.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2d456297-5812-4f1b-b29b-4feeeb72eeee")
 	)
 	(junction
 		(at 336.55 118.11)
@@ -4846,6 +4864,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "31705e47-de8c-4621-b501-a6e8f2f52e8f")
+	)
+	(junction
+		(at 336.55 166.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4037776a-3ee3-4207-a294-2fe5a55a5c7f")
 	)
 	(junction
 		(at 336.55 114.3)
@@ -4866,6 +4890,12 @@
 		(uuid "54f8ac7d-286c-48ec-ab79-1d5a3bb83475")
 	)
 	(junction
+		(at 336.55 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5b6c5352-c089-4e82-b378-55455238d2f1")
+	)
+	(junction
 		(at 107.95 148.59)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4876,6 +4906,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "70fbb62c-009c-406a-8152-8ecf9cb46765")
+	)
+	(junction
+		(at 336.55 149.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "734d14f2-ed6d-4114-a5ca-ed62a2916355")
 	)
 	(junction
 		(at 274.32 170.18)
@@ -4894,6 +4930,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7b1478f1-65ac-4b93-a62e-b708261d6f04")
+	)
+	(junction
+		(at 336.55 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7ba2c932-4a9b-4ad4-bbe7-8b87a50fa0a5")
 	)
 	(junction
 		(at 52.07 121.92)
@@ -4984,6 +5026,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d3143475-5f77-4b20-99d8-0c32fd1f30f6")
+	)
+	(junction
+		(at 336.55 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d418f3e4-23fd-4ffc-a648-f7f4f157afa5")
 	)
 	(junction
 		(at 336.55 124.46)
@@ -5098,6 +5146,16 @@
 			(type default)
 		)
 		(uuid "08cfddbe-2d54-47fb-bbee-c30766b57eea")
+	)
+	(wire
+		(pts
+			(xy 336.55 166.37) (xy 340.36 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a177629-b025-42a2-9769-9778d62f86f6")
 	)
 	(wire
 		(pts
@@ -5258,6 +5316,16 @@
 			(type default)
 		)
 		(uuid "3441d952-3e1f-493b-9fee-ae948a99c834")
+	)
+	(wire
+		(pts
+			(xy 336.55 176.53) (xy 340.36 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34f72827-3735-46fc-b0af-917fe1ace0b3")
 	)
 	(wire
 		(pts
@@ -5468,6 +5536,16 @@
 			(type default)
 		)
 		(uuid "5a27b944-0c8e-4530-bf82-fbe203184b5d")
+	)
+	(wire
+		(pts
+			(xy 336.55 156.21) (xy 340.36 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c94c393-ba30-4532-bc0f-83cc86c47390")
 	)
 	(wire
 		(pts
@@ -5771,6 +5849,26 @@
 	)
 	(wire
 		(pts
+			(xy 336.55 170.18) (xy 342.9 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95d30ab0-dd41-4471-baaf-1c99c4509621")
+	)
+	(wire
+		(pts
+			(xy 336.55 146.05) (xy 340.36 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97ebeacf-c442-4b6b-825b-9d1ef567867f")
+	)
+	(wire
+		(pts
 			(xy 270.51 160.02) (xy 274.32 160.02)
 		)
 		(stroke
@@ -5818,6 +5916,16 @@
 			(type default)
 		)
 		(uuid "9d55e4c6-72f4-49b5-8e3a-f07dc6c3cc24")
+	)
+	(wire
+		(pts
+			(xy 336.55 176.53) (xy 336.55 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d5b1f00-161e-4257-9ea2-6c850abc28c6")
 	)
 	(wire
 		(pts
@@ -5871,6 +5979,36 @@
 	)
 	(wire
 		(pts
+			(xy 336.55 160.02) (xy 342.9 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a267eb4b-e454-4246-a4c1-8d9714e9a71d")
+	)
+	(wire
+		(pts
+			(xy 336.55 149.86) (xy 336.55 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a39208ee-0853-45dd-96dc-822e3ac6e9c7")
+	)
+	(wire
+		(pts
+			(xy 336.55 170.18) (xy 336.55 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4ca236b-efc6-4969-baa0-628878a7517b")
+	)
+	(wire
+		(pts
 			(xy 208.28 129.54) (xy 209.55 129.54)
 		)
 		(stroke
@@ -5878,6 +6016,26 @@
 			(type default)
 		)
 		(uuid "a4deade1-55da-4e96-9d96-da5234d27081")
+	)
+	(wire
+		(pts
+			(xy 336.55 166.37) (xy 336.55 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a56d990a-4373-4625-b9e7-536e7195002c")
+	)
+	(wire
+		(pts
+			(xy 336.55 180.34) (xy 342.9 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6b18c77-695a-4278-821e-e0e8d2927ee6")
 	)
 	(wire
 		(pts
@@ -6061,6 +6219,16 @@
 	)
 	(wire
 		(pts
+			(xy 336.55 138.43) (xy 336.55 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bcbc04b3-7def-4667-a28d-3500730e2d51")
+	)
+	(wire
+		(pts
 			(xy 69.85 111.76) (xy 77.47 111.76)
 		)
 		(stroke
@@ -6171,6 +6339,16 @@
 	)
 	(wire
 		(pts
+			(xy 336.55 149.86) (xy 342.9 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf9db959-1389-4764-b1bf-e547dcef624c")
+	)
+	(wire
+		(pts
 			(xy 69.85 50.8) (xy 76.2 50.8)
 		)
 		(stroke
@@ -6241,6 +6419,16 @@
 	)
 	(wire
 		(pts
+			(xy 336.55 180.34) (xy 336.55 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbe6149e-57ab-4ad5-9eeb-5b519cb42076")
+	)
+	(wire
+		(pts
 			(xy 69.85 93.98) (xy 77.47 93.98)
 		)
 		(stroke
@@ -6288,6 +6476,16 @@
 			(type default)
 		)
 		(uuid "e7971bf8-0c1a-48d5-bffa-e397590416fe")
+	)
+	(wire
+		(pts
+			(xy 336.55 156.21) (xy 336.55 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e79a42ea-f98b-4857-abc2-c67893074630")
 	)
 	(wire
 		(pts
@@ -6418,6 +6616,16 @@
 			(type default)
 		)
 		(uuid "fdaabc3f-31bb-4079-b3d8-d85ae7d75a0f")
+	)
+	(wire
+		(pts
+			(xy 336.55 160.02) (xy 336.55 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fef2b0f9-de40-48e5-ae00-8bdc6361ee09")
 	)
 	(global_label "col8"
 		(shape input)
@@ -8640,6 +8848,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 342.9 167.64 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "26a0033c-f7bb-46b8-a17f-68ecb64604ff")
+		(property "Reference" "H12"
+			(at 345.44 165.0999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 345.44 167.6399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad"
+			(at 342.9 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 342.9 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 342.9 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "97187372-6c8d-47d5-bc18-619ac5094524")
+		)
+		(instances
+			(project "mist"
+				(path "/cb32b2da-a60d-4ed4-a57b-2c397f553171"
+					(reference "H12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D")
 		(at 222.25 172.72 90)
 		(mirror x)
@@ -8771,6 +9046,73 @@
 			(project "mist"
 				(path "/cb32b2da-a60d-4ed4-a57b-2c397f553171"
 					(reference "H6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 340.36 143.51 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2aade031-67a6-488a-8d92-0993bf49a338")
+		(property "Reference" "H7"
+			(at 342.9 140.9699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 342.9 143.5099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad"
+			(at 340.36 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 340.36 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 340.36 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "40073eb6-e62b-4972-893c-ad5eee964388")
+		)
+		(instances
+			(project "mist"
+				(path "/cb32b2da-a60d-4ed4-a57b-2c397f553171"
+					(reference "H7")
 					(unit 1)
 				)
 			)
@@ -9900,6 +10242,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 342.9 147.32 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "53d20dcd-521e-4494-9b6e-d315ecbf0611")
+		(property "Reference" "H8"
+			(at 345.44 144.7799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 345.44 147.3199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad"
+			(at 342.9 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 342.9 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 342.9 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d6ccea86-2927-4103-b7a1-9869da46b55a")
+		)
+		(instances
+			(project "mist"
+				(path "/cb32b2da-a60d-4ed4-a57b-2c397f553171"
+					(reference "H8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Djinn-rescue:GND-power")
 		(at 242.57 195.58 0)
 		(unit 1)
@@ -9959,6 +10368,73 @@
 			(project "hermod-left"
 				(path "/cb32b2da-a60d-4ed4-a57b-2c397f553171"
 					(reference "#PWR083")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 340.36 163.83 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5a93e466-d067-463d-856d-b55cfced322a")
+		(property "Reference" "H11"
+			(at 342.9 161.2899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 342.9 163.8299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad"
+			(at 340.36 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 340.36 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 340.36 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c5f36d33-7e3e-4a09-ae4f-28a53ad7f908")
+		)
+		(instances
+			(project "mist"
+				(path "/cb32b2da-a60d-4ed4-a57b-2c397f553171"
+					(reference "H11")
 					(unit 1)
 				)
 			)
@@ -10222,6 +10698,73 @@
 			(project "hermod-left"
 				(path "/cb32b2da-a60d-4ed4-a57b-2c397f553171"
 					(reference "#PWR066")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 340.36 153.67 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "69a9845a-f1f5-4fb2-92eb-91accc159d7d")
+		(property "Reference" "H9"
+			(at 342.9 151.1299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 342.9 153.6699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad"
+			(at 340.36 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 340.36 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 340.36 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7950d0ef-a87e-4855-88dd-1d4178d81bf3")
+		)
+		(instances
+			(project "mist"
+				(path "/cb32b2da-a60d-4ed4-a57b-2c397f553171"
+					(reference "H9")
 					(unit 1)
 				)
 			)
@@ -11408,6 +11951,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 342.9 157.48 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9b6a05ad-041b-4985-82bd-0cd48aa0a7f1")
+		(property "Reference" "H10"
+			(at 345.44 154.9399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 345.44 157.4799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad"
+			(at 342.9 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 342.9 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 342.9 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "49f24ed7-a874-4653-b315-2f4c3443add7")
+		)
+		(instances
+			(project "mist"
+				(path "/cb32b2da-a60d-4ed4-a57b-2c397f553171"
+					(reference "H10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 107.95 152.4 0)
 		(unit 1)
@@ -12193,6 +12803,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 340.36 173.99 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e973c07d-85a5-4e94-8cc0-d5f59816519c")
+		(property "Reference" "H13"
+			(at 342.9 171.4499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 342.9 173.9899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad"
+			(at 340.36 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 340.36 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 340.36 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7d55b2fa-c91a-4227-a5cf-c816bccf4f9c")
+		)
+		(instances
+			(project "mist"
+				(path "/cb32b2da-a60d-4ed4-a57b-2c397f553171"
+					(reference "H13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 52.07 127 0)
 		(unit 1)
@@ -12319,6 +12996,73 @@
 			(project "mist"
 				(path "/cb32b2da-a60d-4ed4-a57b-2c397f553171"
 					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 342.9 177.8 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f848609b-df52-4af3-86c1-30d125f52dc2")
+		(property "Reference" "H14"
+			(at 345.44 175.2599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 345.44 177.7999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad"
+			(at 342.9 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 342.9 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 342.9 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8fe6ac61-1642-486c-8768-66833603fe8b")
+		)
+		(instances
+			(project "mist"
+				(path "/cb32b2da-a60d-4ed4-a57b-2c397f553171"
+					(reference "H14")
 					(unit 1)
 				)
 			)

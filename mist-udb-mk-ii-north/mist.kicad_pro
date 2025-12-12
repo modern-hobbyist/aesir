@@ -103,7 +103,7 @@
         "annular_width": "ignore",
         "clearance": "warning",
         "connection_width": "warning",
-        "copper_edge_clearance": "warning",
+        "copper_edge_clearance": "ignore",
         "copper_sliver": "warning",
         "courtyards_overlap": "ignore",
         "creepage": "error",
@@ -543,7 +543,7 @@
       "plot": "/Users/charliesteenhagen/Desktop/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "../../../../../Desktop/mist-udb.stl",
+      "step": "../../../../../Desktop/mist-udb.step",
       "svg": "/Users/charliesteenhagen/Desktop/",
       "vrml": ""
     },
