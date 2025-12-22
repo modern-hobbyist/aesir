@@ -2501,7 +2501,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ModHob:KS33_Choc-v2_HS_1.5U"
+		(property "Footprint" "ModHob:KS33_Choc-v2_HS_1U"
 			(at 194.31 210.82 0)
 			(effects
 				(font
@@ -2570,7 +2570,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ModHob:KS33_Choc-v2_HS_1U"
+		(property "Footprint" "ModHob:KS33_Choc-v2_HS_1.5U"
 			(at 140.97 210.82 0)
 			(effects
 				(font
@@ -3360,7 +3360,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ModHob:KS33_Choc-v2_HS_1U"
+		(property "Footprint" "ModHob:KS33_Choc-v2_HS_1.5U"
 			(at 158.75 210.82 0)
 			(effects
 				(font
@@ -7743,7 +7743,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ModHob:KS33_Choc-v2_HS_1.5U"
+		(property "Footprint" "ModHob:KS33_Choc-v2_HS_1U"
 			(at 212.09 186.69 0)
 			(effects
 				(font
