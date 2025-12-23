@@ -329,7 +329,7 @@
 	(embedded_fonts no)
 	(model "/Users/charliesteenhagen/Documents/KiCad/9.0/3dmodels/2.8 TFT Module.stp"
 		(offset
-			(xyz 0 -0.05 2.1)
+			(xyz 0 -0.05 2.86)
 		)
 		(scale
 			(xyz 1 1 1)
