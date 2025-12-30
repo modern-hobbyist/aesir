@@ -1,14 +1,18 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "c771186a-4e8d-4283-b4dc-5e9fe43c3267")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Device:D"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -106,10 +110,10 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 0) (xy -1.27 0)
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
 					)
 					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -118,10 +122,10 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+						(xy 1.27 0) (xy -1.27 0)
 					)
 					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -167,12 +171,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "GND_1"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -263,11 +272,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Mechanical:MountingHole_Pad"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim yes)
 			(in_bom no)
 			(on_board yes)
@@ -365,11 +379,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "PCM_marbastlib-choc:choc_v1_SW_HS_CPG135001S30"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -427,6 +446,18 @@
 				)
 			)
 			(symbol "choc_v1_SW_HS_CPG135001S30_0_1"
+				(polyline
+					(pts
+						(xy -2.54 2.54) (xy -1.524 1.524) (xy -1.524 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(circle
 					(center -1.1684 1.1684)
 					(radius 0.508)
@@ -462,10 +493,9 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy -2.54 2.54) (xy -1.524 1.524) (xy -1.524 1.524)
-					)
+				(circle
+					(center 1.143 -1.1938)
+					(radius 0.508)
 					(stroke
 						(width 0)
 						(type default)
@@ -478,17 +508,6 @@
 					(pts
 						(xy 1.524 -1.524) (xy 2.54 -2.54) (xy 2.54 -2.54) (xy 2.54 -2.54)
 					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.143 -1.1938)
-					(radius 0.508)
 					(stroke
 						(width 0)
 						(type default)
@@ -534,6 +553,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Pogo:Pogo_2.54mm_5p"
 			(exclude_from_sim no)
@@ -584,30 +604,19 @@
 			)
 			(symbol "Pogo_2.54mm_5p_1_1"
 				(rectangle
-					(start 1.27 -4.953)
-					(end 2.54 -5.207)
+					(start 1.27 6.35)
+					(end 3.81 -6.35)
 					(stroke
-						(width 0.1524)
+						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type background)
 					)
 				)
 				(rectangle
-					(start 1.27 -2.413)
-					(end 2.54 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 1.27 0.127)
-					(end 2.54 -0.127)
+					(start 1.27 5.207)
+					(end 2.54 4.953)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -628,8 +637,8 @@
 					)
 				)
 				(rectangle
-					(start 1.27 5.207)
-					(end 2.54 4.953)
+					(start 1.27 0.127)
+					(end 2.54 -0.127)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -639,14 +648,25 @@
 					)
 				)
 				(rectangle
-					(start 1.27 6.35)
-					(end 3.81 -6.35)
+					(start 1.27 -2.413)
+					(end 2.54 -2.667)
 					(stroke
-						(width 0.254)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
-						(type background)
+						(type none)
+					)
+				)
+				(rectangle
+					(start 1.27 -4.953)
+					(end 2.54 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 				(pin passive line
@@ -740,6 +760,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND"
 			(power)
@@ -819,7 +840,8 @@
 			(symbol "GND_1_1"
 				(pin power_in line
 					(at 0 0 270)
-					(length 0) hide
+					(length 0)
+					(hide yes)
 					(name "GND"
 						(effects
 							(font
@@ -836,6 +858,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 	)
 	(junction
@@ -6030,4 +6053,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )
