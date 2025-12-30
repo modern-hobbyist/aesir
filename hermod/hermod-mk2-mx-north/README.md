@@ -32,6 +32,12 @@ Furthermore, this is the **NORTH FACING** MX Spacing variant. While it is functi
 - **Lighting**: SK6812 Mini RGB LEDs.
 - **Switches**: Kailh Choc Low Profile.
 
+## Issues
+- 1.5u Footprint Solder Mask Layer missing (fixed)
+  - Caused one of the pads for the 1.5u switches to be covered with Solder Mask
+- LCD SD Card Pins Intersecting USB Data lines (fixed)
+  - I accidentally updated the LCD footprint and didn't run DRC so the data lines had LCD SD card pins running right through them.
+
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](../LICENSE) file for details.
