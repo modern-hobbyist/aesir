@@ -1,6 +1,6 @@
 # Mist
 
-![583A4433.jpg](583A4433.jpg)
+![583A4433.jpg](../assets/583A4433.jpg)
 
 **Mist** is my take on a full size keyboard, but with some upgrades I carried over from my second keyboard build--**[Hermod](https://github.com/modern-hobbyist/aesir/tree/main/hermod-mk2)**. Furthermore, this is the UDB version of **Mist**, which stands for Unified Daughter Board
 
