@@ -26,13 +26,14 @@ These BOMs exclude the switch hotswap sockets, purchase your sockets of choice (
 - **Detachable Numpad**: Magnetically detachable and reversible numpad that can connect to either half.
 - **Dual LCD Displays**: Each half features a 2.2" LCD for customizable graphics and real-time information.
 - **QMK Firmware**: Fully programmable and customizable using QMK.
-- **Per-Key RGB Lighting**: Vibrant, individually addressable RGB LEDs for endless customization.
+- **Per-Key RGB Lighting**: Idividually addressable RGB LEDs for endless customization.
 - **Hot-Swappable Switch Sockets**: Easily swap out switches without soldering.
 - **Open Source Hardware**: Schematics and design files available for personal customization.
+- **Combo Switch Footprints**: Choose between KS-33 or Choc V2 hotswap sockets.
 
 ## Specifications
 
-- **Microcontroller**: STM32G474CETx
+- **Microcontroller**: STM32G474CET6
 - **Key Layout**: Split layout with additional keys for layers and macros.
 - **Display**: 2.2" LCD (320x240 resolution) per half.
 - **Lighting**: SK6812 Mini RGB LEDs.
