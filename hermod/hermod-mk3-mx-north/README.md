@@ -1,18 +1,24 @@
-# Hermod Mk. II - North
+# Hermod Mk. III - MX North
 
 > **Note:** This PCB is untested. I made updates to this design to address issues I had with the previous version, but I haven't ordered boards, nor have I written the matching firmware for it.
 
-Hermod Mk. II is a redesign of my original Hermod split keyboard, which in turn was my second keyboard design ever! Some issues that were resolved in this version include:
-- Better Pin choices for PWM Channels, Mk. I had some issues with timers overlapping
-- Added a handedness pin 
-  - Allows me to avoid using flash to store handedness
-- Switched to Full Duplex split comms
-- Mk.I was missing a 5.1kΩ resistor on the split serial line and this switched fixes that.
-- Switched to `STM32G474CETx` from the `STM32F072CBT6`
-  - More Ram, more flash, more fun. Didn't have enough ram for fun graphics on the LCD
-- Added PWM Backlight control for the LCD Display 
+Hermod Mk. III is a redesign of my original Hermod split keyboard. Some issues that were resolved in this version include:
+- Updated from the PRTR5V0U2X,215 to the SRV05-4 since the former is out of stock everywhere.
+
 
 Furthermore, this is the **NORTH FACING** MX Spacing variant. While it is functionally identically to the Hermod Mk. II, this layout is spaced in a 19.05x19.05 grid, which makes it compatible with the [Tai-Hao keycaps](https://shop.tai-hao.com/products/98white-1) highlighted in the ZSA Voyager. Also, the switches are rotated 180• from the previous versions so that the LED's are better aligned with shine-through keycaps. 
+
+**Note:** This keyboard supports KS-33 and Choc V2 switches in an MX spacing. It does not support standard MX or Gateron switches. The reasoning for that is that this keyboard was intended to be as low profile as possible (e.g. USB C midmount instead of standard USB C sockets). 
+
+## SMD BOMs
+These BOMs exclude the switch hotswap sockets, purchase your sockets of choice (either KS-33 HS or Choc V2 HS sockets)
+- Left: https://www.digikey.com/en/mylists/list/ACSWS99OKK
+- Right: https://www.digikey.com/en/mylists/list/SVQS1DIITH
+- Numpad: 
+  - Just need 20x Diodes for the switches: https://www.digikey.com/en/products/detail/mcc-micro-commercial-components/1N4148W-TP/717196
+  
+## Hardware BOM
+- TODO
 
 ## Features
 
