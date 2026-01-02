@@ -9,9 +9,13 @@ I initially started this collection as a personal respository of templates to ge
 ## Included Projects
 1. **Heimdall**: A full-sized keyboard PCB designed for customization and personal use.
 2. **Hermod**: A split ergonomic keyboard design for those seeking an ergonomic, portable build. Featuring a magnetically detachable AND reversible numpad!
-3. **Hermod Mk. II**: A remake of the original Hermod, with an upgraded STM32G474RET6 MCU--granting is more than enough flash and RAM for any LCD animations I can dream up.
-4. **Hermod Mk. III - MX**: An almost complete redesign of the original Hermod line, this time with **MX Spacing** as well as support for both Choc V2 and Gateron KS-33 Switches.
-5. **Mist**: A full sized keyboard with a new take on the spacebar--replacing it with thumb clusters. It also supports Cherry MX/Gateron Normal Profile or Gateron KS-33 Low Profile Switches.
+3. **Hermod Mk. II**: A remake of the original Hermod with an upgraded STM32G474CET6 MCU, supporting Choc V2 and Gateron KS-33 low profile switches. Including an updated thumb cluster for better ergonomics and an extra key.
+3. **Hermod Mk. II - MX**: A remake of the original Hermod, this time with **MX Spacing**. Same as *8Hermod Mk. II** -- supporting Choc V2 and Gateron KS-33 switches.
+4. **Hermod Mk. II - MX - North**: Same as **Hermod Mk. II - MX** but with North facing switches for better shine through keycap legend appearance.
+5. **Hermod Mk. III**: A continuation of **Hermod Mk. II - MX - North** with several component upgrades for easier/cheaper sourcing (e.g. SRV05-4 for ESD).
+6. **Mist**: A full sized keyboard with a new take on the spacebar--replacing it with thumb clusters. It also supports Cherry MX/Gateron Normal Profile or Gateron KS-33 Low Profile Switches.
+7. **Mist UDB**: Same as **Mist**, but using a unified daughter board to offload the ESD and USB protection.
+8. **Mist UDB - Mk. II**: Same as **Mist UDB** but with proper support for the Gateron Low profile stabilizers as well as standard PCB mount stabilizers via mousebitten PCB cutouts.
 3. **STM32F072CBT6 Standard Template**: A blank template for creating your own keyboard designs with the STM32F072CBT6 microcontroller.
 4. **STM32F072CBT6 Split Template**: A blank template for creating your own split keyboard designs with the STM32F072CBT6 microcontroller.
 
