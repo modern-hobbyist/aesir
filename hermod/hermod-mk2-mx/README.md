@@ -1,4 +1,4 @@
-# Hermod Mk. II - North
+# Hermod Mk. II - MX
 
 > **Note:** This PCB is untested. I made updates to this design to address issues I had with the previous version, but I haven't ordered boards, nor have I written the matching firmware for it.
 
@@ -12,7 +12,7 @@ Hermod Mk. II is a redesign of my original Hermod split keyboard, which in turn 
   - More Ram, more flash, more fun. Didn't have enough ram for fun graphics on the LCD
 - Added PWM Backlight control for the LCD Display 
 
-Furthermore, this is the **NORTH FACING** MX Spacing variant. While it is functionally identically to the Hermod Mk. II, this layout is spaced in a 19.05x19.05 grid, which makes it compatible with the [Tai-Hao keycaps](https://shop.tai-hao.com/products/98white-1) highlighted in the ZSA Voyager. Also, the switches are rotated 180• from the previous versions so that the LED's are better aligned with shine-through keycaps. 
+Furthermore, this is the **MX Spacing variant**. While it is functionally identically to the Hermod Mk. II, this layout is spaced in a 19.05x19.05 grid, which makes it compatible with the [Tai-Hao keycaps](https://shop.tai-hao.com/products/98white-1) highlighted in the ZSA Voyager.
 
 ## Features
 
